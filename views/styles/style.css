@@ -1,0 +1,1968 @@
+@font-face {
+  font-family: "Jost-Bold";
+  src: url("./fonts/Jost/static/Jost-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Jost-Medium";
+  src: url("./fonts/Jost/static/Jost-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost-Bold";
+  color: yellow;
+}
+
+:is( .buttonwrapper, .pultbtn, button, .socIcon):hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font Family */
+
+.Jost-Medium {
+  font-family: "Jost-Medium";
+}
+
+
+/* Shadow box */
+
+.brands, .authorBlock, .card, .workBlock, .tools, .plan, .description ul, .buttonwrapper:not(.workBlock .portfolioModifyBtn), .infoblock, .image_block {
+  box-shadow: 0px 25px 15px -13px #111;
+}
+
+.toolIcon, .order, .wrapperToolsFlex p, .pultInside, .watch, .socIcon {
+  box-shadow: 0px 15px 20px -9px #111;
+}
+
+
+.portfolioBox {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background: #1a1a1a;
+}
+
+.wrapperBox {
+  background: #1a1a1a;
+}
+
+.infoblock {
+  border: solid yellow 1px;
+  width: 100%;
+  height: 40%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.infoblock h1 {
+  font-size: 113%;
+  text-align: center;
+
+
+}
+
+.infoblock p {
+  font-size: 80%;
+  text-align: center;
+  font-family: "Jost-Medium";
+}
+
+.infoblock .watch {
+  border: solid yellow 1px;
+  padding: 5px;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}
+
+.image_block {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.pult {
+  width: 100%;
+}
+
+.pultbtn {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.next {
+  margin-left: 10px;
+  background-image: url('./Sprites.png');
+  background-position: top 258px left -303px;
+}
+
+.prev {
+  background-image: url('./Sprites.png');
+  background-position: top 258px left -250px;
+}
+
+.close {
+  float: right;
+  background-image: url('./Sprites.png');
+  background-position: top 258px left -352px;
+}
+
+#portImg {
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+  margin: 0;
+}
+
+.pultInside {
+  width: 90px;
+  margin: 5px auto -10px;
+  z-index: 2;
+  transform: scale(.9);
+  background: #2B2B2A;
+  border-radius: 50px;
+}
+
+.image_block {
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 10px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(45deg, rgb(255, 255, 255), rgb(206, 206, 206));
+  background: -moz-linear-gradient(45deg, rgb(255, 255, 255), rgb(206, 206, 206));
+  background: linear-gradient(45deg, rgb(255, 255, 255), rgb(206, 206, 206));
+}
+
+
+@media (min-width: 550px) {
+
+  .image_block,
+  .infoblock,
+  .pult {
+    width: 550px;
+  }
+
+}
+
+@media (min-width: 1250px) {
+
+  .pultInside {
+    margin: 20px;
+  }
+
+  .wrapperBox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .portfolioBox {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 95%;
+    height: 90%;
+    position: relative;
+  }
+
+  .pult {
+    width: 100%;
+  }
+
+  .infoblock {
+    height: 90%;
+    width: 49%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 100px;
+  }
+
+  .infoblock h1 {
+    font-size: 23px;
+  }
+
+  .infoblock p {
+    font-size: 18px;
+  }
+
+  .image_block {
+    width: 50%;
+    margin: 0;
+    height: 90%;
+    position: relative;
+  }
+
+  #portImg {
+    display: block;
+    position: absolute;
+    height: 100%;
+  }
+
+
+}
+
+.port_hidden {
+  display: none;
+}
+
+
+
+
+
+
+
+/* Font sizes */
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-45 {
+  font-size: 45px;
+}
+
+.font-23 {
+  font-size: 23px;
+}
+
+.font-66 {
+  font-size: 66px;
+}
+
+/* Mobile */
+/* Header */
+
+img {
+  display: block;
+  margin-top: -50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0;
+}
+
+header,
+.sectionOne,
+.brands,
+.pluses,
+.portfolio,
+.tools,
+.plans,
+.whyMe,
+.comments,
+.contacts,
+footer {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+body {
+  background: #1a1a1a;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+header {
+  overflow: hidden;
+}
+
+.logo {
+  width: 158px;
+  height: 57px;
+  background-image: url('./Sprites.png');
+  /* margin-left: 74px; */
+}
+
+.menu {
+  margin: 25px 0;
+  overflow: hidden;
+}
+
+.menu_fixed {
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  margin: 0;
+  z-index: 1;
+  background: #1a1a1a;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.menu_fixed header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 70px;
+}
+
+
+.menu_hidden {
+  height: 44px;
+}
+
+.menu_mobile_button::before {
+  content: "☰";
+  font-size: 25px;
+}
+
+.menu li {
+  color: yellow;
+  padding: 10px 0;
+  list-style-type: none;
+}
+
+.buttonwrapper {
+  color: yellow;
+  width: 158px;
+  border-radius: 10px;
+  height: 40px;
+  background: none;
+  border: solid 2px yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.arrowyellow {
+  width: 14px;
+  height: 14px;
+  background-image: url('./Sprites.png');
+  background-position: top -105px left 0px;
+  margin-left: 5px;
+  margin-top: 2.5px;
+}
+
+.workBlock .buttonwrapper {
+  justify-content: left;
+}
+
+
+/* Section Main */
+
+.sectionOne h1 {
+  font-size: 32px;
+}
+
+.sectionOne * {
+  font-size: 18px;
+}
+
+.sectionOneBtn {
+  justify-content: center;
+  margin: 0;
+  width: 90%;
+}
+
+.sectionOneBtn p {
+  margin: 0;
+  text-align: center;
+}
+
+.buttonsWrapperOne {
+  margin: 35px 0;
+}
+
+.buttonsWrapperSectionOne {
+  width: 250px;
+}
+
+.buttonsWrapperSectionOne:nth-child(1) {
+  margin-bottom: 15px;
+}
+
+div.buttonModifyOne {
+  background: #6666FF;
+  border: 2px solid #6666FF;
+}
+
+.authorBlock {
+  width: 98%;
+  height: 521px;
+  border-radius: 10px;
+  background: #2B2B2A;
+  background-image: url('./Sprites.png');
+  background-position: top -331px right 259px;
+}
+
+.numbersWrapper {
+  margin-top: 65px;
+}
+
+.authorBlock .mindAuthor {
+  width: 53%;
+  line-height: 23px;
+}
+
+.authorBlock p {
+  text-align: left;
+  font-family: "Jost-Medium";
+  padding-top: 41px;
+  margin-left: 32px;
+  line-height: 32px;
+}
+
+.authorBlock p.mindAuthor {
+  color: white;
+}
+
+.authorBlock p.mindAuthor span {
+  background: #6666FF;
+}
+
+.authorBlock p.nameAuthor {
+  margin-top: 49px;
+  white-space: pre;
+  line-height: 25px;
+}
+
+
+.authorBlock p.nameAuthor span {
+  font-family: "Jost-Bold";
+  color: white;
+}
+
+.authorBlock div {
+  width: 91px;
+  height: 30px;
+  margin-left: 32px;
+  background-image: url('./Sprites.png');
+
+  margin-top: 15px;
+  background-position: top -23px left -182px;
+}
+
+/* Section Brands   */
+
+.brands {
+  margin-top: 65px;
+}
+
+.brands p {
+  color: white;
+  font-size: 18px;
+}
+
+.brandsWrapper {
+  background: #2B2B2A;
+  border-radius: 8px;
+  /* margin: 0 auto; */
+  margin-top: 35px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.brandsWrapper div {
+  transform: scale(.8);
+  /* margin: 10px; */
+}
+
+.brandsWrapper div {
+  width: 127px;
+  height: 59px;
+}
+
+.brandsWrapper div:nth-child(1),
+.brandsWrapper div:nth-child(2),
+.brandsWrapper div:nth-child(3),
+.brandsWrapper div:nth-child(4),
+.brandsWrapper div:nth-child(5) {
+  background-image: url('./Sprites.png');
+}
+
+.brandsWrapper div:nth-child(1) {
+  background-position: top -140px left 31px;
+}
+
+.brandsWrapper div:nth-child(2) {
+  background-position: top -140px left -113px;
+}
+
+.brandsWrapper div:nth-child(3) {
+  background-position: top -140px left -287px;
+}
+
+.brandsWrapper div:nth-child(4) {
+  background-position: top -140px left -488px;
+}
+
+.brandsWrapper div:nth-child(5) {
+  background-position: top -140px left -700px;
+}
+
+/* Pluses */
+
+.pluses>h1 {
+  font-size: 32px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.card:nth-child(1) {
+  /* margin-left: 65px; */
+  background: #2B2B2A;
+  opacity: 1;
+}
+
+.card:nth-child(2),
+.card:nth-child(3),
+.card:nth-child(4) {
+  /* margin-left: 37px; */
+  background: #2B2B2A;
+}
+
+.card .cardIcon {
+  width: 79px;
+  height: 79px;
+  margin-top: 29px;
+  margin-left: 19px;
+  overflow: hidden;
+  background-image: url('./Sprites.png');
+}
+
+.card:nth-child(1)>div {
+  background-position: top -252px left 1px;
+}
+
+.card:nth-child(2)>div {
+  background-position: top -252px left -143px;
+}
+
+.card:nth-child(3)>div {
+  background-position: top -252px left -309px;
+}
+
+.card:nth-child(4)>div {
+  background-position: top -252px left -462px;
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 23px;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 22px;
+  color: white;
+}
+
+.card p {
+  font-family: "Jost-Medium";
+  text-align: left;
+  font-size: 18px;
+  margin: 5px 15px 35px 30px;
+  line-height: 28px;
+}
+
+/* Portfolio */
+
+.portfolio .workBlock .buttonwrapper p {
+  margin-left: 0;
+}
+
+.portfolio .portfolioModifyMore {
+  margin: 0 auto;
+}
+
+.workBlocksWrapper {
+  margin: 38px auto;
+}
+
+.descriptionWrapper h1 {
+  font-size: 32px;
+}
+
+.descriptionWrapper p {
+  font-size: 18px;
+}
+
+.workBlock {
+  margin-bottom: 16px;
+  border-radius: 10px;
+  background: #2B2B2A;
+  box-sizing: border-box;
+  padding: 19px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 243px;
+}
+
+.workBlocksWrapper {
+  height: 502px;
+  overflow: hidden;
+}
+
+.workBlocksWrapper h1 {
+  font-size: 23px;
+  color: white;
+}
+
+.workBlocksWrapper .title {
+  font-family: "Jost-Medium";
+  margin-top: 21px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.portfolioModifyBtn {
+  border: none;
+  margin-left: 3px;
+  width: 166px;
+}
+
+.portfolioModifyBtn .arrowyellow {
+  transform: rotate(270deg);
+}
+
+.portfolioModifyMore {
+  width: 187px;
+  height: 35px;
+  border: solid 1px yellow;
+  margin-top: 54px; 
+  /* margin-left: 546px; */
+  border-radius: 85px;
+}
+
+
+/* Tools */
+
+.tools {
+  background: #2B2B2A;
+  box-sizing: content-box;
+  padding: 45px 15px;
+}
+
+.toolsIconsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 38px;
+  justify-content: center;
+}
+
+.toolsDescription p {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.hidden_tools {
+  height: 0px;
+  display: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
+.tools .toolsDescription p {
+  text-align: left;
+  padding: 10px;
+  font-family: "Jost-Medium";
+  color: white;
+  border-radius: 12px;
+}
+
+.toolIcon {
+  transform: scale(.8);
+}
+
+.tools h1 {
+  font-size: 23px;
+  text-align: center;
+  /* text-align: center; */
+  /* padding-top: 81px; */
+}
+
+.tools p {
+  text-align: center;
+  /* margin-top: 12px;
+  font-size: 17px; */
+}
+
+.tools {
+  /* width: 1195px;
+  height: 481px; */
+  /* margin: 178px auto 0; */
+  border-radius: 10px;
+  /* background: #2B2B2A; */
+}
+
+.tools .buttonwrapper {
+  margin: 51px auto 0;
+}
+
+.toolsIconsWrapper {
+  /* width: 662px; */
+  /* height: 64px; */
+  /* margin: 62px auto 0; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+.toolIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 19px;
+  background-image: url('./Sprites.png');
+}
+
+.toolIcon:nth-child(1) {
+  background-position: top -1002px left -4px;
+}
+
+.toolIcon:nth-child(2) {
+  background-position: top -1002px left -90px;
+}
+
+.toolIcon:nth-child(3) {
+  background-position: top -1002px left -177px;
+}
+
+.toolIcon:nth-child(4) {
+  background-position: top -1002px left -261px;
+}
+
+.toolIcon:nth-child(5) {
+  background-position: top -1002px left -348px;
+}
+
+.toolIcon:nth-child(6) {
+  background-position: top -1002px left -432px;
+}
+
+.toolIcon:nth-child(7) {
+  background-position: top -1002px left -519px;
+}
+
+.toolIcon:nth-child(8) {
+  background-position: top -1002px left -604px;
+}
+
+.tools .arrowyellow {
+  margin-top: 2.5px;
+}
+
+/* Plans */
+
+.plansWrapper .plan {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.plansWrapper {
+  margin-top: 50px;
+}
+
+.plan {
+  background: #2B2B2A;
+  margin-top: 15px;
+  box-sizing: border-box;
+  padding: 22px 26px;
+}
+
+.plan h1 {
+  width: 60px;
+  font-size: 32px;
+  line-height: 46px;
+  color: white;
+}
+
+.plan p {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 14px;
+  line-height: 24px;
+}
+
+.plan .line {
+  border: solid 1px yellow;
+  width: 44px;
+  margin-top: 13px;
+}
+
+.order {
+  width: 100%;
+  height: 43px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.order .basketIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  background-image: url('./Sprites.png');
+  background-position: top -101px left -131px;
+}
+
+.order p {
+  margin: 0;
+  margin-left: 3px;
+  color: black;
+  font-family: "Jost-Bold";
+}
+
+.plan ul {
+  list-style-type: none;
+  margin-top: 35px;
+}
+
+.plan li {
+  margin-bottom: 21px;
+  display: flex;
+  align-items: center;
+
+}
+
+.plan .marker {
+  width: 24px;
+  height: 24px;
+  margin-right: 13px;
+  background-image: url('./Sprites.png');
+  background-position: top -99px left -45px;
+  overflow: hidden;
+}
+
+/* WhyMe */
+
+.whyMe>h1 {
+  font-size: 32px;
+}
+
+.numberOne h1 {
+  font-size: 32px;
+  color: #6666FF;
+}
+
+.numberOne p:nth-child(2) {
+  font-size: 23px;
+}
+
+.numberOne:first-child {
+  border-bottom: 1px solid yellow;
+  padding-bottom: 25px;
+}
+
+.numberOne:nth-child(2) {
+  margin-top: 25px;
+}
+
+.numberOne p:nth-child(3) {
+  font-family: "Jost-Medium";
+}
+
+.whyMe h1:first-child span {
+  color: white;
+  text-decoration: underline;
+}
+
+.whyMe .desc {
+  font-size: 18px;
+  margin-top: 2px;
+  line-height: 20px;
+}
+
+/* Comments */
+
+.comments h1 {
+  padding-top: 15px;
+  font-size: 32px;
+  /*margin-top: 10px;  */
+}
+
+.commentsWrapper {
+  margin-top: 8px;
+  height: 380px;
+  overflow: hidden;
+}
+
+.comment {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  height:356px;
+  border-radius: 20px;
+  background: #2B2B2A;
+  margin-top: 24px;
+}
+
+.comment h1 {
+  font-size: 28px;
+  text-align: left;
+  margin-left: 45px;
+  color: white;
+}
+
+.comment p {
+  font-size: 15px;
+  text-align: left;
+  font-family: "Jost-Medium";
+  margin-top: 17px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.authorCommentWrapper {
+  margin-right: 40px;
+  padding-bottom: 30px;
+}
+
+.photoAuthCom {
+  width: 49px;
+  height: 49px;
+  margin-right: 12px;
+}
+
+.comment:nth-child(1) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 152px left -4px;
+}
+
+.comment:nth-child(2) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 152px left -121px;
+}
+
+.comment:nth-child(3) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 152px left -232px;
+}
+
+.authorCommentWrapper {
+  margin-top: 25px;
+  margin-left: 39px;
+}
+
+.photoAuthCom {
+  margin-bottom: 10px;
+}
+
+.authorCommentWrapper ul {
+  list-style-type: none;
+}
+
+.authorCommentWrapper ul li:nth-child(2) {
+  color: white;
+  font-family: "Jost-Medium";
+  margin-top: -5px;
+}
+
+
+/* Здесь */
+
+.contacts ul {
+  font-size: 45px;
+  margin-top: 19px;
+
+
+  border-radius: 10px;
+  background: yellow;
+}
+
+.contacts ul li {
+  font-size: 18px;
+  margin-left: 17px;
+  margin-right: 18px;
+  padding: 23px 0;
+  list-style-type: none;
+  font-family: "Jost-Medium";
+  color: black;
+}
+
+.contacts ul li .iconList {
+  background-image: url('./Sprites.png');
+  background-position: top -100px left -83px;
+}
+
+.iconList {
+  width: 22px;
+  height: 51px;
+  margin-right: 13px;
+}
+
+.contacts ul li:nth-child(1) {
+  border-bottom: 1px solid black;
+}
+
+.contacts ul li:nth-child(2) {
+  border-bottom: 1px solid black;
+}
+
+.sendData {
+  height: 527px;
+  margin-top: 15px;
+}
+
+.formInfo {
+  margin-top: 25px;
+}
+
+.formInfo p {
+  font-size: 18px;
+  font-family: "Jost-Medium";
+}
+
+.wrapperInp {
+  border: solid 1px yellow;
+  border-radius: 10px;
+}
+
+.wrapperInp:nth-child(3) {
+  margin-top: -6px;
+}
+
+.wrapperInp:nth-child(4),
+.wrapperInp:nth-child(5) {
+  margin-top: 14px;
+}
+
+.wrapperInp:nth-child(5) {
+  height: 119px;
+  padding-top: 5px;
+}
+
+.wrapperInp:nth-child(6) {
+  margin-top: 13px;
+  height: 41px;
+}
+
+input,
+textarea,
+select {
+  background: none;
+  padding-left: 13px;
+  margin-right: 13px;
+  font-size: 15px;
+  border: none;
+  color: yellow;
+  outline: none;
+  font-family: "Jost-Medium";
+}
+
+select {
+  width: 100%;
+  color: yellow;
+  margin-right: 5px;
+}
+
+.optionStyle {
+  color: black;
+  margin-top: 20px;
+}
+
+.fioWrapper .wrapperInp input {
+  width: 227px;
+}
+
+.sendData div input {
+  width: 100%;
+  height: 43px;
+}
+
+.sendData div textarea {
+  width: 100%;
+}
+
+/* Свой стилизованный сheckbox */
+
+
+label {
+  color: yellow;
+  font-family: "Jost-Medium";
+  margin-top: 19px;
+}
+
+label:before {
+  display: block;
+  content: " ";
+  width: 34px;
+  height: 34px;
+  color: black;
+  border: solid 1px yellow;
+  float: left;
+  margin-right: 20px;
+  margin-top: -8px;
+  border-radius: 8px;
+}
+
+input:checked~label:before {
+  content: "✓";
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  background: yellow;
+}
+
+#connect {
+  display: none;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: yellow;
+}
+
+textarea::-webkit-input-placeholder,
+input::-moz-placeholder {
+  color: yellow;
+}
+
+
+.sendData .buttonwrapper {
+  border: solid 1px yellow;
+  font-family: "Jost-Bold";
+  font-size: 23px;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 83px auto 0;
+}
+
+.sendData .buttonwrapper p {
+  margin-left: 32px;
+}
+
+.fioWrapper .wrapperInp:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+
+.wrapperInp:nth-child(6) select {
+  margin-top: 10px;
+}
+
+.wrapperCheckbox {
+  margin-top: 25px;
+}
+
+/* Footer */
+
+footer {
+  margin: 206px auto 50px;
+}
+
+footer .Info,
+footer .logo {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+
+}
+
+
+footer .socIcon {
+  width: 40px;
+  height: 40px;
+  background-image: url('./Sprites.png');
+}
+
+.socials a:nth-child(1) .socIcon {
+  background-position: top 262px left -4px;
+}
+
+.socials a:nth-child(2) .socIcon {
+  background-position: top 262px left -68px;
+}
+
+.socials a:nth-child(3) .socIcon {
+  background-position: top 262px left -134px;
+}
+
+.socials a:nth-child(4) .socIcon {
+  background-position: top 262px left -199px;
+}
+
+
+.sendData .buttonwrapper button {
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+.error {
+  border: solid 2px white;
+}
+
+.errorText {
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: yellow;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
+/* Tablet */
+@media (min-width: 550px) {
+
+  .info h1,
+  .info>p,
+  .brands p,
+  .pluses>h1,
+  .pluses>p,
+  .descriptionWrapper h1,
+  .descriptionWrapper p,
+  .plans>h1,
+  .plans>p {
+    text-align: center;
+  }
+
+  /* header .logo,
+  header .buttonwrapper {
+    margin: 0 auto;
+  } */
+
+  header .buttonwrapper, header .logo {
+    margin: 0 auto;
+  }
+
+  header ul {
+    text-align: center;
+  }
+
+  .buttonsWrapperOne {
+    display: flex;
+    width: 512px;
+    justify-content: space-between;
+    margin: 35px auto;
+  }
+
+  .sectionOneBtn {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .authorBlock {
+    margin: 0px auto;
+  }
+
+  .brandsWrapper {
+    margin: 35px auto 0;
+  }
+
+  .buttonsWrapperOne .buttonsWrapperSectionOne {
+    margin-right: 0;
+  }
+
+  .buttonsWrapperOne {
+    display: flex;
+  }
+
+  .authorBlock {
+    width: 416px;
+    height: 511px;
+    background-position: top -366px left 94px;
+  }
+
+  .toolsDescription {
+    width: 500px;
+    margin: 50px auto 0;
+
+  }
+
+  .authorBlock .mindAuthor {
+    line-height: 32px;
+  }
+
+  .brandsWrapper {
+    width: 450px;
+  }
+
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 48%;
+  }
+
+  .workBlock {
+    width: 80%;
+    margin: 0 auto 16px;
+  }
+
+  .smallDesc {
+    margin-bottom: 42px;
+  }
+
+
+
+
+
+  .plan .marker {
+    width: 32px;
+  }
+
+  .plansWrapper .plan {
+    width: 400px;
+    margin: 15px auto;
+  }
+
+  .whyMe h1,
+  .whyMe p {
+    text-align: center;
+    width: 80%;
+    margin: 5px auto;
+  }
+
+  .authorCommentWrapper {
+    display: flex;
+  }
+
+  .photoAuthCom {
+    margin-bottom: 0;
+  }
+
+  .numbersWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+  }
+
+  .numberOne {
+    width: 49%;
+  }
+
+  .numberOne {
+    box-sizing: content-box;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .numberOne:first-child {
+    border-bottom: none;
+    border-right: 1px solid yellow;
+    padding-bottom: 0;
+  }
+
+  .numberOne:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .tools .toolsDescription p {
+    text-align: center;
+  }
+
+  .comment {
+
+  }
+
+  .comments h1 {
+    text-align: left;
+  }
+
+  .comments .buttonwrapper {
+    margin: 81px auto;
+  }
+
+  .commentsWrapper {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .comments>h1 {
+    text-align: center;
+  }
+
+  .iconList {
+    float: left;
+  }
+
+  .contacts {
+    width: 450px;
+    margin: 50px auto;
+  }
+
+  footer {
+    width: 500px;
+  }
+
+}
+
+
+/* Desktop */
+@media (min-width: 1250px) {
+  .wrapper {
+    width: 1280px;
+    border: solid transparent 1px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .sectionOne .info h1 {
+    width: 595px;
+  }
+
+  header {
+    width: 1138px;
+    margin: 0;
+    margin-top: 87px;
+    margin-left: 77px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  header .logo {
+    margin: 0;
+  }
+
+
+  .menu {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu_mobile_button {
+    display: none;
+  }
+
+  .toolsDescription {
+    width: 790px;
+  }
+
+  .menu li {
+    padding: 0;
+    margin-right: 28px;
+    /* margin-right: 38px; */
+  }
+
+  .logo {
+    width: 173px;
+  }
+
+  .sectionOne {
+    display: flex;
+    width: 100%;
+    margin-top: 119px;
+  }
+
+  .sectionOne h1 {
+    font-size: 66px;
+  }
+
+  .sectionOne .info h1 {
+    margin-left: 78px;
+    margin-top: 107px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .sectionOne .info>p {
+    margin-left: 88px;
+    margin-top: 22px;
+    line-height: 33px;
+    text-align: center;
+    width: 586px;
+  }
+
+  .authorBlock {
+    margin-left: 72px;
+  }
+
+  .buttonsWrapperOne {
+    margin-top: 22px;
+    margin-left: 52px;
+  }
+
+  .buttonsWrapperSectionOne {
+    width: 190px;
+  }
+
+  .buttonsWrapperSectionOne:nth-child(2) {
+    margin-left: -5px;
+  }
+
+
+  .authorBlock p.mindAuthor {
+    line-height: 27px;
+  }
+
+  .authorBlock p.nameAuthor {
+    margin-top: 70px;
+  }
+
+  /* Brands */
+
+  .brands {
+    width: 1154px;
+  }
+
+  .brands>p {
+    text-align: center;
+    margin-top: 72px;
+  }
+
+  .brandsWrapper {
+    margin-top: 36px;
+    width: 100%;
+    height: 98px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 18px 56px;
+  }
+
+  .brandsWrapper div {
+    margin: 0;
+    transform: scale(1);
+  }
+
+  /* Pluses */
+
+  .cards {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 42px;
+  }
+
+  .pluses {
+    width: 1150px;
+  }
+
+  .pluses h1:first-child,
+  .smallDesc {
+    text-align: center;
+  }
+
+  .pluses>h1 {
+    font-size: 45px;
+    width: 1150px;
+    margin-top: 157px;
+    line-height: 47px;
+  }
+
+  .pluses>p {
+    font-size: 18px;
+    width: 800px;
+    margin-top: 22px;
+    line-height: 26px;
+    margin: 22px auto 0;
+  }
+
+  .card {
+    width: 260px;
+    height: 401px;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    width: 1214px;
+    margin-top: 194px;
+  }
+
+  .portfolio .descriptionWrapper {
+    text-align: center;
+  }
+
+  .portfolio .descriptionWrapper h1 {
+    font-size: 45px;
+    margin-top: -12px;
+  }
+
+  .workBlock {
+    width: 384px;
+    height: 243px;
+    margin: 0;
+    margin-bottom: 16px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .workBlock {
+    box-sizing: border-box;
+    padding-left: 29px;
+  }
+
+  .workBlocksWrapper {
+    height: 502px;
+    margin-bottom: 44px;
+    overflow: hidden;
+  }
+
+  .workBlocksWrapper {
+    display: block;
+    /* display: flex;
+    flex-flow: column wrap;
+    align-items: center; */
+
+  }
+
+
+  /* Tools */
+
+  .tools {
+    margin-top: 179px;
+    width: 1169px;
+    /* height: 382px; */
+  }
+
+  .tools h1 {
+    margin-top: 26px;
+  }
+
+  .toolsIconsWrapper {
+    width: 662px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+  }
+
+  .toolsIconsWrapper .toolIcon {
+    transform: scale(1);
+  }
+
+  .tools .buttonwrapper {
+    margin-top: 69px;
+  }
+
+  .plans {
+    margin-top: 199px;
+    width: 966px;
+  }
+
+  .workBlocksWrapper .title {
+    text-align: left;
+  }
+
+  .plans h1 {
+    font-size: 45px;
+    margin-top: 10px;
+  }
+
+
+  .plans>p {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+
+  .plansWrapper p {
+    font-size: 18px;
+    font-family: "Jost Medium";
+  }
+
+  .plans p:first-child {
+    font-size: 23px;
+  }
+
+  .plansWrapper .plan {
+    width: 294px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .plansWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+  }
+
+  .order {
+    margin-top: 29px;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: yellow;
+  }
+
+  .plan ul {
+    margin-top: 38px;
+    margin-bottom: 68px;
+    margin-left: -6px;
+  }
+
+  .buttonsWrapperOne {
+    margin-left: 197px;
+  }
+
+  .buttonsWrapperOne {
+    justify-content: left;
+  }
+
+  .whyMe {
+    margin-top: 233px;
+  }
+
+  .whyMe>h1 {
+    font-size: 66px;
+    width: 100%;
+  }
+
+  .whyMe .desc {
+    font-size: 23px;
+    width: 100%;
+    line-height: 36px;
+    width: 744px;
+  }
+
+  .numbersWrapper {
+    margin-top: 65px;
+    height: 291px;
+  }
+
+  .numberOne h1 {
+    font-size: 66px;
+    margin-top: 6px;
+  }
+
+  .numberOne p:nth-child(2) {
+    margin-top: -11px;
+    margin-bottom: 8px;
+  }
+
+  .numberOne p:nth-child(3) {
+    line-height: 31px;
+    ;
+  }
+
+  .numberOne {
+    width: 100%;
+  }
+
+  /* Comments */
+
+  .comments {
+    width: 1206px;
+    margin: 203px auto 0;
+  }
+
+  .commentsWrapper {
+    margin-top: 44px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .wrapperToolsFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .wrapperToolsFlex p {
+    width: 20%;
+    margin: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    background: #413b3b;
+    opacity: .6;
+  }
+
+  
+
+  .comment {
+    width: 375px;
+    position: relative;
+    margin-top: 24px;
+  }
+
+
+  .contacts p,
+  h1 {
+    text-align: left;
+  }
+
+  /* Contacts */
+
+  .contacts {
+    width: 1190px;
+    height: 700px;
+    margin: 237px auto 0;
+    display: flex;
+  }
+
+  .contacts .description,
+  .formInfo {
+    width: 50%;
+  }
+
+  .contacts p {
+    text-align: left;
+    /* font-size: 22px; */
+    margin-top: 5px;
+    margin-left: 28px;
+  }
+
+  .contacts h1 {
+    font-size: 63px;
+    margin-top: -4px;
+    margin-left: 28px;
+    line-height: 64px;
+  }
+
+  .contacts ul {
+    margin-left: 29px;
+    width: 471px;
+    height: 297px;
+  }
+
+  .sendData {
+    width: 526px;
+    margin-left: 44px;
+  }
+
+  .formInfo h1 {
+    font-size: 45px;
+    margin-top: -12px;
+    text-align: center;
+  }
+
+  .formInfo p {
+    margin-left: 21px;
+    text-align: center;
+  }
+
+  .sendData div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sendData .buttonwrapper p {
+    margin-top: -1px;
+  }
+
+  .fioWrapper .wrapperInp:nth-child(1) {
+    margin-bottom: 0;
+  }
+
+  .wrapperInp:nth-child(6) select {
+    margin-top: 0;
+  }
+
+  .wrapperCheckbox {
+    margin-top: 0;
+  }
+
+  .formInfo {
+    margin-top: 0;
+  }
+
+  /* Footer */
+
+  .wrapperFooter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer {
+    width: 1123px;
+    height: 164px;
+    margin: 115px auto 150px;
+  }
+
+  footer .logo {
+    margin-left: 0;
+  }
+
+  footer p {
+    text-align: left;
+    width: 463px;
+    margin-top: 24px;
+    line-height: 30px;
+  }
+
+  footer .socIcon {
+    width: 40px;
+    height: 40px;
+    margin-left: 29px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    background-image: url('./Sprites.png');
+  }
+
+  footer .Info,
+  footer .logo {
+    margin: 0;
+  }
+
+  .socials {
+    margin-top: 126px;
+    margin-right: 10px;
+  }
+}

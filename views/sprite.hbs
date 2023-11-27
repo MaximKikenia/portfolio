@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sprite</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="./styles/edit.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="editWrapper">
+        {{> header}}
+        <div class="portfolioEditorWrapper">
+            <h3>Загрузить новый Sprite:</h3>
+            <form action="/spriteupload" method="post" enctype="multipart/form-data">
+                <input type="file" name="filedata" /><br><br>
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>
+    </div>
+</body>
+<html>

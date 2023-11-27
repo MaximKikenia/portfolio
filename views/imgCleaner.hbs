@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Node.js</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="./styles/edit.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="editWrapper">
+        {{> header}}
+        <div class="portfolioEditorWrapper">
+        <p>Удалить папку проекта №:</p>
+
+        <form action="/removefolder" method="post">
+            <input type="number" name="foldernumber" value="14"><br><br>
+            <button>Отправить</button>
+        </form>
+    </div>
+    </div>
+</body>
+<html>

@@ -1,0 +1,103 @@
+{
+    "portfolioData": [
+    [
+        { "title": "Zтатья Power Kikenia What is Lorem Ipsum" },
+        { "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriE." },
+        {"img" : ["../src/1/1.png", "../src/1/2.png"]},
+        {"imgPDF" : "../src/1/full.pdf"},
+        {"link" : "Смотреть"}
+    ],
+    [
+        { "title": "Mтатья Power Kikenia What is Lorem Ipsum?" },
+        { "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriE." },
+        {"img" : ["../src/2/1.png", "../src/2/2.png"]},
+        {"imgPDF" : "../src/2/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 3" },
+        { "description": "Описание 3" },
+        {"img" : ["../src/3/1.png", "../src/3/2.png"]},
+        {"imgPDF" : "../src/3/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 4" },
+        { "description": "Описание 4" },
+        {"img" : ["../src/4/1.png", "../src/4/2.png"]},
+        {"imgPDF" : "../src/4/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 5" },
+        { "description": "Описание 5" },
+        {"img" : ["../src/5/1.png"]},
+        {"imgPDF" : "../src/5/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 6" },
+        { "description": "Описание 6" },
+        {"img" : ["../src/6/1.png"]},
+        {"imgPDF" : "../src/6/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 7" },
+        { "description": "Описание 7" },
+        {"img" : ["../src/7/1.png"]},
+        {"imgPDF" : "../src/7/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 8" },
+        { "description": "Описание 8" },
+        {"img" : ["../src/8/1.png"]},
+        {"imgPDF" : "../src/8/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 9" },
+        { "description": "Описание 9" },
+        {"img" : ["../src/9/1.png"]},
+        {"imgPDF" : "../src/9/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 10" },
+        { "description": "Описание 10" },
+        {"img" : ["../src/10/1.png"]},
+        {"imgPDF" : "../src/10/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 11" },
+        { "description": "Описание 11" },
+        {"img" : ["../src/11/1.png"]},
+        {"imgPDF" : "../src/11/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 12" },
+        { "description": "Описание 12" },
+        {"img" : ["../src/12/1.png"]},
+        {"imgPDF" : "../src/12/full.pdf"},
+        {"link" : "Линк"}
+    ],
+    [
+        { "title": "Заголовок 13" },
+        { "description": "Описание 13" },
+        {"img" : ["../src/13/1.png"]},
+        {"imgPDF" : "../src/13/full.pdf"},
+        {"link" : "Линк"}
+    ],
+[
+        { "title": "А вот и фигуры" },
+        { "description": "Описание фигур" },
+        {"img" : ["../src/14/1.png", "../src/14/2.png", "../src/14/3.png", "../src/14/4.png"]},
+        {"imgPDF" : "../src/14/full.pdf"},
+        {"link" : "Посмотреть"}
+    ]
+
+    ]
+}

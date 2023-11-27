@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+     <link rel="shortcut icon" href="./fenec.png" />
+    <title>Максим Кикеня. Сайт.</title>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="wrapperBox port_hidden">
+        <div class="portfolioBox" id="">
+            <div class="pult">
+                <div class="pultbtn prev"></div>
+                <div class="pultbtn next"></div>
+                <div class="pultbtn close"></div>
+            </div>
+            <div class="infoblock">
+                <h1 class="port_title">What is Lorem Ipsum?</h1>
+                <p class="port_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <a class="fullWork" target="_blank">
+                    <p class="watch"></p>
+                </a>
+            </div>
+            <div class="image_block">
+                <div class="pultInside">
+                    <div class="pultbtn prev prevInside"></div>
+                    <div class="pultbtn next nextInside"></div>
+                </div>
+                <img id="portImg" src="./src/1.png" alt="portfolio_template">
+            </div>
+
+
+        </div>
+    </div>
+    <div class="wrapper" id="main">
+        <div class="headerwrapper">
+            <header class="header">
+                <div class='logo'></div>
+                <ul class='menu menu_hidden font-18'>
+                    <li class="menu_mobile_button"></li>
+                    {{#each menu}}
+                    <a href="{{this.link}}">
+                        <li>{{this.name}}</li>
+                    </a>
+                    {{/each}}
+                </ul>
+
+                <a href="#down">
+                    <div class="buttonwrapper">
+                        <p>{{buttonDown}}</p>
+                        <div class="arrowyellow"></div>
+                    </div>
+                </a>
+            </header>
+        </div>
+
+        <section class='sectionOne'>
+            <div class="info">
+                <h1>{{mainTitle}}</h1>
+                <p>{{mainDescription}}</p>
+
+                <div class="buttonsWrapperOne">
+                    <a href="#contacts">
+                        <div class="buttonsWrapperSectionOne">
+                            <div class="buttonwrapper sectionOneBtn">
+                                <p>{{buttonWrite}}</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#portfolio">
+                        <div class="buttonsWrapperSectionOne">
+                            <div class="buttonwrapper sectionOneBtn buttonModifyOne">
+                                <p>{{buttonWatch}}</p>
+                                <div class="arrowyellow"></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="authorBlock">
+                <p class='mindAuthor'><span>{{mainMindSpan}}</span>{{mainMind}}</p>
+                <p class="nameAuthor"><span>{{mainName}}</span><br />{{mainJob}}</p>
+                <div></div>
+            </div>
+        </section>
+
+        <section class="brands">
+            <p>{{brandTitle}}</p>
+            <div class="brandsWrapper">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
+        <section class="pluses">
+            <h1>{{advTitle}}</h1>
+            <p class='smallDesc'>{{advDescription}}</p>
+            <div class="cards">
+                {{#each advCards}}
+                <div class="card">
+                    <div class="cardIcon"></div>
+                    <h1>{{this.advTitle}}</h1>
+                    <p>{{this.advDesc}}</p>
+                </div>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="descriptionWrapper">
+                <p>{{portfirstdesc}}</p>
+                <h1>{{portHeadTitle}}</h1>
+                <p>{{portsecDesc}}</p>
+            </div>
+            <div class="workBlocksWrapper">
+                {{#each portfCards}}
+                <div class="workBlock" id="{{this.id}}">
+                    <h1>{{this.portTitle}}</h1>
+                    <p class="title">{{this.portDesc}}</p>
+                    <div class="buttonwrapper portfolioModifyBtn">
+                        <p>{{this.buttonMore}}</p>
+                        <div class="arrowyellow"></div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="portShow">
+                <p>{{buttonWatchMore}}</p>
+                <div class="arrowyellow"></div>
+            </div>
+        </section>
+
+        <section class="tools">
+            <h1>{{toolsTitle}}</h1>
+            <p>{{toolsDesc}}</p>
+            <div class="toolsIconsWrapper">
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+            </div>
+
+            <div class="toolsDescription hidden_tools">
+                <div class="wrapperToolsFlex">
+                    {{#each toolsAbout}}
+                    <p>{{this}}</p>
+                    {{/each}}
+                </div>
+            </div>
+
+            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showTools">
+                <p>{{buttonWatchMore}}</p>
+                <div class="arrowyellow"></div>
+            </div>
+
+        </section>
+
+        <section class="plans" id="service">
+            <h1>{{plansTitle}}</h1>
+            <p>{{plansDesc}}</p>
+            <div class="plansWrapper">
+
+                {{#each plansCards}}
+                <div class="plan">
+                    <h1>{{this.cardTitle}}</h1>
+                    <p>{{this.cardDescOne}}</p>
+                    <div class="line"></div>
+                    <p>{{this.cardDescTwo}}</p>
+                    <a href="#contacts">
+                        <div class="order">
+                            <div class="basketIcon"></div>
+                            <p>{{this.buttonBuy}}</p>
+                        </div>
+                    </a>
+
+                    <ul>
+                        {{#each this.cardService}}
+                        <li>
+                            <div class="marker"></div>{{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/each}}
+
+
+            </div>
+        </section>
+
+        <section class="whyMe">
+            <h1><span>{{whyMeTitleSpan}}</span> {{whyMeTitle}}</h1>
+            <p class="desc">{{whyMeDesc}}</p>
+            <div class="numbersWrapper">
+                {{#each whyMeBox}}
+                <div class="numberOne">
+                    <h1>{{this.boxTitle}}</h1>
+                    <p>{{this.boxDesc}}</p>
+                    <p>{{this.boxInfo}}</p>
+                </div>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="comments" id="review">
+            <h1>{{commentsTitle}}</h1>
+            <div class="commentsWrapper">
+                {{#each commentsCards}}
+                <div class="comment">
+                    <h1>{{this.comTitle}}</h1>
+                    <p>{{this.comDesc}}</p>
+                    <div class="authorCommentWrapper">
+                        {{!-- <div class="photoAuthCom"></div> --}}
+                        <ul>
+                            <li>{{this.comName}}</li>
+                            <li>{{this.comJob}}</li>
+                        </ul>
+                    </div>
+                </div>
+                {{/each}}
+
+            </div>
+            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showComments">
+                <p>{{buttonReadMore}}</p>
+                <div class="arrowyellow"></div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="description">
+                <h1>{{contatsTitle}}</h1>
+                <p>{{contatsDesc}}</p>
+                <ul>
+                    {{#each contatsPoints}}
+                    <li>
+                        <div class="iconList"></div>{{this}}
+                    </li>
+                    {{/each}}
+
+                </ul>
+            </div>
+            <div class="formInfo">
+                <h1>{{contatsFormTitle}}</h1>
+                <p>{{contatsFormDesc}}</p>
+                <div class="errorWrapper">
+                    <p class="errorText"></p>
+                </div>
+                <form name="myForm" class="sendData">
+                    <div class="fioWrapper">
+                        <div class="wrapperInp">
+                            <input type="text" name="name" placeholder={{contatsFormInp1}} />
+                        </div>
+                        <div class="wrapperInp">
+                            <input type="text" name="surname" placeholder={{contatsFormInp2}} />
+                        </div>
+                    </div><br />
+                    <div class="wrapperInp">
+                        <input type="text" name="telephone" placeholder={{contatsFormInp3}} /><br />
+                    </div>
+                    <div class="wrapperInp">
+                        <input type="text" name="email" placeholder={{contatsFormInp4}} /><br />
+                    </div>
+                    <div class="wrapperInp">
+                        <textarea name="comment" placeholder={{contatsFormInp5}}></textarea><br />
+                    </div>
+                    <div class="wrapperInp">
+                        <select name="country">
+                            {{#each contatsFormInp6 }}
+                            <option class="optionStyle" selected>{{this}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+
+                    <div class="wrapperCheckbox">
+                        <input id='connect' name="userAgree" type="checkbox" />
+                        <label for="connect">{{contatsFormInp7}}</label>
+                    </div>
+
+                    <div class="buttonwrapper portfolioModifyBtn">
+                        <button name="sendButton" type="submit">{{buttonSend}}</button>
+                        <div class="arrowyellow"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="wrapperFooter" id="down">
+                <div class="Info">
+                    <div class="logo"></div>
+                    <p>{{footerTitle}}</p>
+                </div>
+                <div class="socials">
+                    <a href={{socials.linkd}} target="_blank">
+                        <div class="socIcon"></div>
+                    </a>
+                    <a href={{socials.telegr}} target="_blank">
+                        <div class="socIcon"></div>
+                    </a>
+                    <a href={{socials.fb}} target="_blank">
+                        <div class="socIcon"></div>
+                    </a>
+                    <a href={{socials.inst}} target="_blank">
+                        <div class="socIcon"></div>
+                    </a>
+
+                </div>
+            </div>
+
+        </footer>
+
+
+</body>
+
+<script src="./frontend/form.js"></script>
+<script src="./frontend/interactive.js"></script>
+<script src="./frontend/porfolioWorks.js"></script>
+
+</html>
