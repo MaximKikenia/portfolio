@@ -1,102 +1,109 @@
 {
     "portfolioData": [
     [
-        { "title": "Zтатья Power Kikenia What is Lorem Ipsum" },
-        { "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriE." },
-        {"img" : ["../src/1/1.png", "../src/1/2.png"]},
-        {"imgPDF" : "../src/1/full.pdf"},
+        { "title": "Инвестируй с нами: карта и каталог" },
+        { "description": "Адаптивная HTML-страница для агентства инвестиций с современным дизайном. В ней реализованы удобное меню для навигации, интерактивная карта, каталог с фильтрами для быстрого поиска предложений, а также блок с логотипами партнёров." },
+        {"img" : ["../src/1/1.jpg", "../src/1/2.jpg", "../src/1/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/web/1_invest/dist/index.html"},
         {"link" : "Смотреть"}
     ],
     [
-        { "title": "Mтатья Power Kikenia What is Lorem Ipsum?" },
-        { "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriE." },
-        {"img" : ["../src/2/1.png", "../src/2/2.png"]},
-        {"imgPDF" : "../src/2/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Каталог фотоаппаратов с фильтрами" },
+        { "description": "Каталог фотоаппаратов с удобным меню, фильтрами по брендам, типу и цене, а также быстрым поиском нужной модели. Страница позволяет сравнивать характеристики, изучать подробные описания и выбирать камеры для любых задач — от новичков до профессионалов." },
+        {"img" : ["../src/2/1.jpg", "../src/2/2.jpg", "../src/2/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/web/2_techpark/index/index.html"},
+        {"link" : "Смотреть"}
     ],
     [
-        { "title": "Заголовок 3" },
-        { "description": "Описание 3" },
-        {"img" : ["../src/3/1.png", "../src/3/2.png"]},
-        {"imgPDF" : "../src/3/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Lamborghini Huracán: фото и данные" },
+        { "description": "Сайт, посвящённый Lamborghini Huracán, предлагает полное погружение в мир суперкара. Здесь вы найдёте обширную галерею фото, захватывающие видео, подробные технические характеристики и доступные расцветки. Удобная структура позволяет легко сравнивать варианты и узнать всё о модели." },
+        {"img" : ["../src/3/1.jpg", "../src/3/2.jpg", "../src/3/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/web/3_hurracan/index.html"},
+        {"link" : "Смотреть"}
     ],
     [
-        { "title": "Заголовок 4" },
-        { "description": "Описание 4" },
-        {"img" : ["../src/4/1.png", "../src/4/2.png"]},
-        {"imgPDF" : "../src/4/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Девон рекс: очарование необычной породы" },
+        { "description": "Девон рекс — игривая и ласковая порода с характерными большими ушами и волнистой шерстью. На лендинге вы найдете подробности о происхождении, уходе, питании и здоровье, а также красивые фото и советы для будущих владельцев этой удивительной кошки." },
+        {"img" : ["../src/4/3.jpg", "../src/4/2.jpg", "../src/4/1.jpg"]},
+        {"imgPDF" : "../src/0_proj/web/4_kitten/index.html"},
+        {"link" : "Смотреть"}
     ],
     [
-        { "title": "Заголовок 5" },
-        { "description": "Описание 5" },
-        {"img" : ["../src/5/1.png"]},
-        {"imgPDF" : "../src/5/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Университеты, столицы и валюты стран" },
+        { "description": "Приложение с университетами мира: список вузов по странам, с указанием столицы, флага и национальной валюты каждой страны. <a target='_blank' style='text-decoration: underline' href='https://github.com/MaximKikenia/WUD-Heroku'>Запустить приложение</a>" },
+        {"img" : ["../src/5/1.jpg", "../src/5/2.jpg", "../src/5/3.jpg"]},
+        {"imgPDF" : "https://github.com/MaximKikenia/WUD-Heroku/tree/master/frontend/app/components/university_app"},
+        {"link" : "Код на GitHub"}
     ],
     [
-        { "title": "Заголовок 6" },
-        { "description": "Описание 6" },
-        {"img" : ["../src/6/1.png"]},
-        {"imgPDF" : "../src/6/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Статьи и публикации New York Times" },
+        { "description": "Приложение с публикациями и статьями New York Times. Удобные фильтры и разделы помогают быстро находить нужные материалы в разных категориях. <a target='_blank' style='text-decoration: underline' href='https://github.com/MaximKikenia/NYTapp4Heroku'>Запустить приложение</a>" },
+        {"img" : ["../src/6/1.jpg", "../src/6/2.jpg", "../src/6/3.jpg"]},
+        {"imgPDF" : "https://github.com/MaximKikenia/NYTapp4Heroku/tree/main/frontend/app/components"},
+        {"link" : "Код на GitHub"}
     ],
     [
-        { "title": "Заголовок 7" },
-        { "description": "Описание 7" },
-        {"img" : ["../src/7/1.png"]},
-        {"imgPDF" : "../src/7/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Силикатный кирпич. Печатная реклама." },
+        { "description": "Буклет посвящён силикатному кирпичу в пяти цветах. Вы узнаете о его прочности, долговечности и применении в строительстве, а также увидите реальные оттенки, подходящие для фасадов, стен и декора. Информация поможет выбрать оптимальный вариант для вашего проекта." },
+        {"img" : ["../src/0_proj/print/6_kirpich_sil/1.jpg", "../src/0_proj/print/6_kirpich_sil/2.jpg", "../src/0_proj/print/6_kirpich_sil/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/6_kirpich_sil/full.jpg"},
+        {"link" : "К макету"}
     ],
     [
-        { "title": "Заголовок 8" },
-        { "description": "Описание 8" },
-        {"img" : ["../src/8/1.png"]},
-        {"imgPDF" : "../src/8/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Пазогребневые блоки. Печатная реклама." },
+        { "description": "Пазогребневые блоки — лёгкий и прочный строительный материал для возведения внутренних и наружных стен. Их удобная форма с пазами и гребнями обеспечивает точную кладку без больших швов. Блоки отлично удерживают тепло и звук, упрощая строительство и отделку." },
+        {"img" : ["../src/0_proj/print/7_block/1.jpg", "../src/0_proj/print/7_block/2.jpg", "../src/0_proj/print/7_block/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/7_block/full.jpg"},
+        {"link" : "К макету"}
     ],
     [
-        { "title": "Заголовок 9" },
-        { "description": "Описание 9" },
-        {"img" : ["../src/9/1.png"]},
-        {"imgPDF" : "../src/9/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Фактурный кирпич. Печатная реклама." },
+        { "description": "Брошюра о фактурном силикатном кирпиче показывает разнообразие форм, цветов и текстур. В ней описаны преимущества для облицовки фасадов, прочность, морозостойкость и советы по монтажу, дополненные наглядными примерами и фотографиями готовых объектов." },
+        {"img" : ["../src/0_proj/print/8_kir_fact/1.jpg", "../src/0_proj/print/8_kir_fact/2.jpg", "../src/0_proj/print/8_kir_fact/3.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/8_kir_fact/full.jpg"},
+        {"link" : "К макету"}
     ],
     [
-        { "title": "Заголовок 10" },
-        { "description": "Описание 10" },
-        {"img" : ["../src/10/1.png"]},
-        {"imgPDF" : "../src/10/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Filtron. Рекламная акция." },
+        { "description": "Плакат рекламирует фильтры Filtron, привлекая внимание автолюбителей к качественным и надёжным деталям. Представлены ключевые преимущества фильтров, их эффективность и долговечность, а также яркая визуализация, подчёркивающая надёжность продукции для вашего автомобиля." },
+        {"img" : ["../src/0_proj/print/9_filtron/1.jpg", "../src/0_proj/print/9_filtron/2.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/9_filtron/full.jpg"},
+        {"link" : "Смотреть JPG"}
     ],
     [
-        { "title": "Заголовок 11" },
-        { "description": "Описание 11" },
-        {"img" : ["../src/11/1.png"]},
-        {"imgPDF" : "../src/11/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Mann-Filter. Рекламная акция." },
+        { "description": "Листовка рекламирует фильтры MANN-Filter, акцентируя внимание автолюбителей на высоком качестве и надёжности продукции. Показаны ключевые преимущества фильтров, их эффективность, долговечность и точная посадка. Яркая визуализация подчёркивает профессионализм и доверие к бренду." },
+        {"img" : ["../src/0_proj/print/8_mann-filter/1.jpg", "../src/0_proj/print/8_mann-filter/2.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/8_mann-filter/full.jpg"},
+        {"link" : "Смотреть JPG"}
     ],
     [
-        { "title": "Заголовок 12" },
-        { "description": "Описание 12" },
-        {"img" : ["../src/12/1.png"]},
-        {"imgPDF" : "../src/12/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Моторные масла G-Energy. Акция." },
+        { "description": "Флаер рекламирует моторные масла G-Energy, подчеркивая их качество и эффективность для всех авто. Преимущества включают защиту двигателя, снижение износа и экономию топлива. Яркий дизайн и информативная подача помогают автолюбителям сделать правильный выбор." },
+        {"img" : ["../src/0_proj/print/10_genergy/1.jpg", "../src/0_proj/print/10_genergy/2.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/10_genergy/full.jpg"},
+        {"link" : "Смотреть JPG"}
     ],
     [
-        { "title": "Заголовок 13" },
-        { "description": "Описание 13" },
-        {"img" : ["../src/13/1.png"]},
-        {"imgPDF" : "../src/13/full.pdf"},
-        {"link" : "Линк"}
+        { "title": "Защита информации и данных." },
+        { "description": "Информационная безопасность защищает данные от атак, утечек и доступа с помощью шифрования и антивирусов. Это сохраняет конфиденциальность. <a href='../src/0_proj/print/1_article_delo_ua/art.pdf' target='_blank' style='text-decoration:underline'>Читать PDF.</a>" },
+        {"img" : ["../src/13/1.jpg", "../src/13/2.jpg"]},
+        {"imgPDF" : "../src/0_proj/print/1_article_delo_ua/delo_ua.pdf"},
+        {"link" : "<a href='https://delo.ua/business/stoit-li-bojatsja-slezhki-v-internete-214147/' target='_blank'>Читать онлайн</a>"}
     ],
 [
-        { "title": "А вот и фигуры" },
-        { "description": "Описание фигур" },
-        {"img" : ["../src/14/1.png", "../src/14/2.png", "../src/14/3.png", "../src/14/4.png"]},
+        { "title": "Защита личных данных онлайн." },
+        { "description": "Мошенники создают поддельные сайты, чтобы украсть деньги или данные. Проверяйте адрес, отзывы и безопасность сайта, чтобы не стать жертвой обмана онлайн. <a href='../src/0_proj/print/2_article_tv_net-1/art.pdf' target='_blank' style='text-decoration:underline'>Читать PDF.</a>" },
+        {"img" : ["../src/14/1.jpg", "../src/14/2.jpg"]},
         {"imgPDF" : "../src/14/full.pdf"},
-        {"link" : "Посмотреть"}
+        {"link" : "<a href='https://rus.tvnet.lv/5280809/kak-ne-popastsya-na-udochku-moshennikov-v-internet-magazinah' target='_blank'>Читать онлайн</a>"}
+    ],
+[
+        { "title": "Утечка данных и защита информации." },
+        { "description": "Утечка данных — серьёзная угроза в цифровом мире. Личные сведения, такие как пароли, номера карт или адреса, могут попасть к мошенникам. <a href='../src/0_proj/print/5_elec_ru/art.pdf' target='_blank' style='text-decoration:underline'>Читать PDF.</a>" },
+        {"img" : ["../src/15/1.jpg", "../src/15/2.jpg"]},
+        {"imgPDF" : "../src/14/full.pdf"},
+        {"link" : "<a href='https://www.elec.ru/publications/tsifrovye-tekhnologii-svjaz-izmerenija/1981/' target='_blank'>Читать онлайн</a>"}
     ]
 
     ]

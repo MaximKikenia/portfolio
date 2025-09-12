@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
-     <link rel="shortcut icon" href="./fenec.png" />
-    <title>Максим Кикеня. Сайт.</title>
+    <link rel="shortcut icon" href="./fenec.png" />
+    <title>Максим Кикеня. Персональный сайт.</title>
     <link href="./styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -33,7 +33,7 @@
                     <div class="pultbtn prev prevInside"></div>
                     <div class="pultbtn next nextInside"></div>
                 </div>
-                <img id="portImg" src="./src/1.png" alt="portfolio_template">
+                <img id="portImg" src="./src/1/1.jpg" alt="portfolio_template">
             </div>
 
 
@@ -104,20 +104,6 @@
             </div>
         </section>
 
-        <section class="pluses">
-            <h1>{{advTitle}}</h1>
-            <p class='smallDesc'>{{advDescription}}</p>
-            <div class="cards">
-                {{#each advCards}}
-                <div class="card">
-                    <div class="cardIcon"></div>
-                    <h1>{{this.advTitle}}</h1>
-                    <p>{{this.advDesc}}</p>
-                </div>
-                {{/each}}
-            </div>
-        </section>
-
         <section class="portfolio" id="portfolio">
             <div class="descriptionWrapper">
                 <p>{{portfirstdesc}}</p>
@@ -142,36 +128,45 @@
             </div>
         </section>
 
-        <section class="tools">
-            <h1>{{toolsTitle}}</h1>
-            <p>{{toolsDesc}}</p>
-            <div class="toolsIconsWrapper">
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-                <div class="toolIcon"></div>
-            </div>
-
-            <div class="toolsDescription hidden_tools">
-                <div class="wrapperToolsFlex">
-                    {{#each toolsAbout}}
-                    <p>{{this}}</p>
-                    {{/each}}
+                <section class="whyMe">
+            <h1><span>{{whyMeTitleSpan}}</span> {{whyMeTitle}}</h1>
+            <p class="desc">{{whyMeDesc}}</p>
+            <div class="numbersWrapper">
+                {{#each whyMeBox}}
+                <div class="numberOne">
+                    <h1>{{this.boxTitle}}</h1>
+                    <p>{{this.boxDesc}}</p>
+                    <p>{{this.boxInfo}}</p>
                 </div>
+                {{/each}}
             </div>
-
-            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showTools">
-                <p>{{buttonWatchMore}}</p>
-                <div class="arrowyellow"></div>
-            </div>
-
         </section>
 
-        <section class="plans" id="service">
+                        <section class="comments" id="review">
+            <h1>{{commentsTitle}}</h1>
+            <div class="commentsWrapper">
+                {{#each commentsCards}}
+                <div class="comment">
+                    <h1>{{this.comTitle}}</h1>
+                    <p>{{this.comDesc}}</p>
+                    <div class="authorCommentWrapper">
+                        <div class="photoAuthCom"></div>
+                        <ul>
+                            <li>{{this.comName}}</li>
+                            <li>{{this.comJob}}</li>
+                        </ul>
+                    </div>
+                </div>
+                {{/each}}
+
+            </div>
+            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showComments">
+                <p>{{buttonReadMore}}</p>
+                <div class="arrowyellow"></div>
+            </div>
+        </section>
+
+                <section class="plans" id="service">
             <h1>{{plansTitle}}</h1>
             <p>{{plansDesc}}</p>
             <div class="plansWrapper">
@@ -203,42 +198,60 @@
             </div>
         </section>
 
-        <section class="whyMe">
-            <h1><span>{{whyMeTitleSpan}}</span> {{whyMeTitle}}</h1>
-            <p class="desc">{{whyMeDesc}}</p>
-            <div class="numbersWrapper">
-                {{#each whyMeBox}}
-                <div class="numberOne">
-                    <h1>{{this.boxTitle}}</h1>
-                    <p>{{this.boxDesc}}</p>
-                    <p>{{this.boxInfo}}</p>
+
+
+        
+
+
+        <section class="pluses">
+            <h1>{{advTitle}}</h1>
+            <p class='smallDesc'>{{advDescription}}</p>
+            <div class="cards">
+                {{#each advCards}}
+                <div class="card">
+                    <div class="cardIcon"></div>
+                    <h1>{{this.advTitle}}</h1>
+                    <p>{{this.advDesc}}</p>
                 </div>
                 {{/each}}
             </div>
         </section>
 
-        <section class="comments" id="review">
-            <h1>{{commentsTitle}}</h1>
-            <div class="commentsWrapper">
-                {{#each commentsCards}}
-                <div class="comment">
-                    <h1>{{this.comTitle}}</h1>
-                    <p>{{this.comDesc}}</p>
-                    <div class="authorCommentWrapper">
-                        {{!-- <div class="photoAuthCom"></div> --}}
-                        <ul>
-                            <li>{{this.comName}}</li>
-                            <li>{{this.comJob}}</li>
-                        </ul>
-                    </div>
-                </div>
-                {{/each}}
 
+
+
+
+
+
+
+
+                        <section class="tools">
+            <h1>{{toolsTitle}}</h1>
+            <p>{{toolsDesc}}</p>
+            <div class="toolsIconsWrapper">
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
+                <div class="toolIcon"></div>
             </div>
-            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showComments">
-                <p>{{buttonReadMore}}</p>
+
+            <div class="toolsDescription hidden_tools">
+                <div class="wrapperToolsFlex">
+                    {{#each toolsAbout}}
+                    <p>{{this}}</p>
+                    {{/each}}
+                </div>
+            </div>
+
+            <div class="buttonwrapper portfolioModifyBtn portfolioModifyMore" id="showTools">
+                <p>{{buttonWatchMore}}</p>
                 <div class="arrowyellow"></div>
             </div>
+
         </section>
 
         <section class="contacts" id="contacts">

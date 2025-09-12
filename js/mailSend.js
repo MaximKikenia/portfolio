@@ -1,34 +1,48 @@
-var nodemailer = require('nodemailer');
+const TelegramBot = require('node-telegram-bot-api');
 
 function sendMail(formInfo, response) {
 
-    const transporter = nodemailer.createTransport({
-        service: 'hotmail',
-        auth: {
-            user: "himaks91@hotmail.com",
-            pass: "Linkinpark1991"
-        },
-        tls: {
-            rejectUnauthorized: false
-        }
-    });
+    const token = '8345923607:AAHENV0XXEOrfkjaywrLoypzB865yZwiKIk';
+    const chatId = '518412773';
 
-    var mailOptions = {
-        from: 'himaks91@hotmail.com',
-        to: 'job.mk9@gmail.com',
-        subject: 'Сообщение Fenec.com',
-        html: '<p> <b>Имя:</b> ' + formInfo.name + '<br><br>' + '<b>Фамилия </b>' + formInfo.surname + '<br><br>' + '<b>Телефон: </b>' + formInfo.telephone + '<br><br>' + '<b>Email: </b>' + formInfo.email + '<br><br>' + '<b>Комментарий: </b>' + '<br><br>' + formInfo.comment + '<br><br>' +  '<b>Страна: </b>' + formInfo.country + '<br><br>' + '<b>Соглашение: </b>' + `${formInfo.userAgent ? "Да" : "Нет"}`  + '</p>'
+    const bot = new TelegramBot(token, { polling: false });
+
+    const event = {
+        user: 'Имя: ' + formInfo.name,
+        surname: 'Фамилия: ' + formInfo.surname,
+        telephone: 'Телефон: ' + formInfo.telephone,
+        email: 'Почта: ' + formInfo.email,
+        comment: 'Комментарий: ' + formInfo.comment,
+        country: 'Страна: ' + formInfo.country,
+        onlineAgree: 'Онлайн сотрудничество: ' + formInfo.userAgent,
+        time: 'Дата & Время: ' + new Date().toLocaleString()
     };
 
-    transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            console.log(error);
-            response.send(false);
-        } else {
-            console.log('Email sent: ' + info.response);
-            response.send(JSON.stringify({"success" : "Сообщение успешно отправлено!",}));
-        }
-    });
+    const message =
+        "📢 Новое сообщение с сайта M.Kikenia :\n \n" +
+        Object.entries(event)
+            .map(([key, value]) => `• ${value}`)
+            .join("\n");
+
+    bot.sendMessage(chatId, message)
+    .then(() => response.send(JSON.stringify({ "success": "Сообщение успешно отправлено!"})))
+    .catch(err => console.error('Ошибка при отправке:', err));
 }
 
 module.exports = sendMail;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

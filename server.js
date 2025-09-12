@@ -5,9 +5,6 @@ var bodyParser = require('body-parser');
 const multer = require("multer");
 const hbs = require("hbs");
 
-
-
-
 //Photoes to portfolio loader/storage
 var storage = multer.diskStorage({
     destination: function (req, file, callback) {
@@ -27,7 +24,7 @@ var upload = multer({ storage: storage }).array('filedata');
 //Sprite loader/storage
 var storageSprite = multer.diskStorage({
     destination: function (req, file, callback) {
-        
+
         var dir = './views/styles'
 
         callback(null, dir);
@@ -245,7 +242,7 @@ app.post('/auth', urlencodedParser, function (request, response) {
 
     let data = {
         login: "admin",
-        password: "123"
+        password: "Mysite2025"
     };
 
     let login = request.body.login;
@@ -261,7 +258,6 @@ app.post('/auth', urlencodedParser, function (request, response) {
     }
 });
 
-
 app.get("/admin", function (request, response) {
     response.render("admin");
 });
@@ -269,8 +265,8 @@ app.get("/admin", function (request, response) {
 app.post('/email', jsonParser, function (request, response) {
     if (!request.body) return response.sendStatus(400);
     let data = request.body;
-    console.log(data);
     validationForm(data, response, "ru");
 });
 
-app.listen(process.env.PORT || 3000, function () { console.log("Сервер на порту: 3000 успешно запущен!") });
+
+app.listen(process.env.PORT || 3000, function () { console.log("Сервер успешно запущен. http://localhost:3000/") });

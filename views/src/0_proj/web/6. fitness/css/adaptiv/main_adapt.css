@@ -1,0 +1,442 @@
+@media all and (max-width: 1270px) {   
+
+body {
+        width: 760px;
+        position:relative;
+    }
+
+    .menu {
+        width: 300px;
+        margin-left: 215px;
+    }
+    
+    .logo {
+        margin-left: 40px;
+    }
+    
+    .menu_punkts {
+        margin: 5px 10px;
+    }
+    
+    .section1 {
+        width: 100%;
+        height: 670px;
+        margin-top: 70px;
+    }
+    
+    .girl1 {
+        width: 120%;
+        top: 370px;
+        left: -45px;
+    }
+    
+    .StudiaText {
+        margin: 0 auto;
+    }
+    
+    .Predl {
+        margin: 0 auto;
+        width: 450px;
+    }
+    
+    .section2 {
+        width: 85.5%;
+        margin: 80px auto;
+        height: 680px;
+    }
+        
+    .Napravlenia {
+        width: 100%;
+    }
+    
+    .section3 {
+        height: 480px;
+    }
+    
+    .Trener_photoes {
+        width: 64%;
+        height: 400px;
+    }
+    
+    .tren {
+        margin-bottom: 100px;
+    }
+    
+    .map {
+        width: 90%;
+        height: 330px;
+        overflow: hidden;
+    }
+    
+    .ContInf {
+        left: 410px;
+        width: 240px;
+        height: 240px;
+    }
+    
+    .forma {
+        width: 440px;
+    }
+    
+    .window_form {
+        float: none;
+    }
+    
+    .areaform {
+        width: 439px;
+        margin: 9px 0 0 0;
+    }
+    
+    .area {
+        top: 12px;
+        left: -422px;
+    }
+    
+    .button {
+        top: 25px;
+    }
+    
+    #window1 {
+        width: 94;
+    }
+    
+    .flower5 {
+       top: 3400px; 
+    }
+    
+    .flower1 {
+        left: -270px;
+        top: 400px;
+        width: 70%;
+    }
+    
+    .flower2 {
+        right: -60px;
+        top: 300px;
+        width: 28%;
+    }
+    
+    .Hover {
+        top: 0;
+        opacity: .7;
+    }
+    
+    .UZ {
+        border: solid #818181 1px;
+    }
+    
+    .flower2 {
+        width: 300px;
+        right: -240px;
+    }
+    
+    .flower1 {
+        width: 800px;
+        left: -560px;
+    }
+    
+    .flower5 {
+        left: 100px;
+    }
+}
+
+@media all and (max-width: 760px) {
+    
+    body {
+        width: 640px;
+    }
+    
+    header {
+        height: 330px;
+        width: 76%;
+        margin-bottom: -30px;
+    }
+    
+    .logo {
+        float: none;
+        margin-left: 140px;
+    }
+    
+    .menu {
+        width: 450px;
+        margin: 0;
+        height: 120px;
+    }
+    
+    .soc1 {
+        margin-left: 187px;
+    }
+    
+    .soc2 {
+        margin-left: 20px;
+    }
+    
+    .section1 {
+        width: 90%;
+    }
+    
+    .girl1 {
+        width: 150%;
+        left: -100px;
+        top: 390px;
+    }
+    
+    .section2 {
+        height: 1300px;
+        width: 320px;
+        margin-bottom: -1px;
+    }
+    
+    .line1 {
+        display: none;
+    }
+    
+    .Otdel {
+        margin: 20px auto;
+    }
+    
+    .Shapka {
+        width: 166px;
+    }
+    
+   
+    .section3 {
+        width: 43%;
+        margin: 0 auto;
+        height: 1300px;
+    }
+    
+    .ContInf {
+       left: 52px;
+    }
+    
+    
+    .flower5 {
+        display: none;
+    }
+    
+    .section5 {
+        width: 88%;
+        margin: 0 auto;
+    }
+    
+    .forma {
+        width: 100%;
+    }
+    
+    #window1 {
+        width: 94.4%;
+    }
+    
+    .area {
+        width: 94.4%;
+    }
+    
+    .flower1, .flower2, .flower3, .flower4 {
+        display: none;
+    }
+    
+}
+
+
+/*iPhone 4S________________________________________________________________*/
+
+
+@media all and (max-width: 759px) {
+
+    body {
+        width: 310px;
+        overflow-x:hidden;
+    }
+    
+    .logo {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    header {
+        height: 470px;
+    }
+    
+    .menu {
+        width: 130px;
+        height: 260px;
+        margin: 0 auto;
+    }
+    
+    .menu_punkts {
+        margin-left: -25px;
+    }
+    
+    .soc1:first-child {
+        margin-left: 50px;
+    }
+    
+    .section1 {
+        width: 240px;
+        height: 780px;
+    }
+    
+    .StudiaText {
+        width: 100%;
+    }
+    
+    .Predl {
+        width: 100%;
+    }
+    
+    .napr_spis_1 {
+        margin-left: 30px;
+    }
+    
+    .napr_spis_2 {
+        margin-left: 30px;
+    }
+    
+    .girl1 {
+        top: 580px;
+        left: -70px;
+    }
+    
+    .section2 {
+        width: 310px;
+    }
+    
+    .Nap_block {
+        margin-left: -1.5px;
+    }
+    
+    .section3 {
+        width: 250px;
+    }
+    
+    .ContInf {
+       left: 19px;
+    }
+    
+    .map {
+        height: 315px;
+    }
+    
+    
+    #window1 {
+        width: 90%;
+    }
+    
+    .area {
+        width: 90%;
+    }
+
+    .forma {
+        height: 615px;
+    }
+    
+    #window1 {
+       width: 241px;
+    }
+    
+    .areaform {
+        width: 237px;
+    }
+    
+    .window_form {
+        width: 260px; 
+    }
+    
+    .button {
+        margin-left: 98px;
+        margin-top: 30px;
+    }
+    
+    .flower1, .flower2, .flower3, .flower4 {
+        display: block; 
+    }
+    
+    .flower5 {
+        display: block;
+        top: 5550px;
+        left: 30px;
+        width: 100%;
+    }
+    
+     .flower1 {
+        left: -310px;
+        top: 140px;
+        width: 140%; 
+    }
+    
+    .flower2 {
+        right: -95px;
+        top: 230px;
+        width: 50%;
+    }
+    
+    .girl1 {
+        top: 670px;
+        width: 160%;
+    }
+    
+    .flower3 {
+        left: -370px;
+        top: 660px;
+        width: 150%;
+    }
+    
+    .flower4 {
+        right: -330px;
+        width: 160%;
+    }
+    
+    .Designed {
+        margin-top: 40px;
+    }
+    
+    .forma {
+        margin-left: 6px;
+        width: 95%;
+        height: 320px;
+    }
+    
+    #window1, .area {
+        width: 88%;
+        margin-left: 7px;
+        padding-left: 15px;
+        font-size: .85em;
+    }
+    
+    .area {
+        width: 77.6%;
+    }
+    
+    .section5 {
+        margin-top: 110px;
+        
+    }
+    
+    .button {
+        margin-top: 0;
+        margin-left: 131px;
+    }
+    
+    .phone {
+        width: 180px;
+        margin-left: 53px;
+        margin-top: 60px;
+    }
+    
+    .spisokNavi {
+        top: 230px;
+display: none;
+    }
+    
+    .buttonNavi {
+        top: 230px;
+display: none;
+    }
+}
+
+@media all and (min-width:400px) and (max-width: 758.9px) {
+     .flower1, .flower2, .flower3, .flower4 {
+        display: none;
+    }
+

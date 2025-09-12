@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+    <meta charset="UTF-8">
+    <title>Leolas | &#1053;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103;</title>
+    <link rel="shortcut icon" href="img/Main/soc_seti/Title.png" type="image/x-icon">
+    
+    <!--Стили-->
+    <link rel="stylesheet" href="css/directions.css">
+    <link rel="stylesheet" href="css/adaptiv/main_adapt.css">
+    <link rel="stylesheet" href="css/adaptiv/dir_adap.css">
+    
+    <!--Шрифты-->
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+    
+     
+     <!--JQuery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      
+    <!--Galery-->
+	<script type='text/javascript' src='gallery/unitegallery/js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='gallery/unitegallery/js/unitegallery.min.js'></script>	
+    <link rel='stylesheet' href='gallery/unitegallery/css/unite-gallery.css' type='text/css' />
+	<script type='text/javascript' src='gallery/unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js'></script>
+     
+     <!--Angular JS-->
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.js'></script>
+    <script src='js/angular.js'></script>
+     
+    <!--Device width-->
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, maximum-scale=1.0">       
+      
+</head>
+<body>
+  <div class="Page">
+  <img src="img/Main/photoes/flower1.png" alt="F1" class='flower1'>
+  <img src="img/Main/photoes/flower2.png" alt="F2" class='flower2'>
+  <img src="img/Main/photoes/flower3.png" alt="F3" class='flower3'>
+  <img src="img/Main/photoes/flower4.png" alt="F4" class='flower4'>
+   <img src="img/Main/photoes/flower5.jpg" alt="F5" class='flower5'>
+  
+  
+   <header>
+      <a id="main"></a>
+       <div class="logo"></div>
+       <ul class="menu">
+           <a href="index.html"><li class="menu_punkts"><b>Главная</b></li></a>
+           <a href="index.html#Napr"><li class="menu_punkts"><b>Направления</b></li></a>
+           <a href="index.html#Coach"><li class="menu_punkts"><b>Почему мы?</b></li></a>
+           <a href="#Contacts"><li class="menu_punkts"><b>Контакты</b></li></a>
+           <a href="index.html#Call"><li class="menu_punkts"><b>Звонок</b></li></a>
+       </ul>
+       <a href="https://vk.com/club98540356" target='_blank'><div class="soc1"></div></a>
+       <a href="https://www.instagram.com/" target='_blank'><div class="soc1 soc2"></div></a>
+   </header>
+   
+   <section class="section0">
+       <a href="#zumba"><div class="NapR">Zumba фитнес</div></a>
+       <a href="#strip"><div class="NapR">Cтрип-пластика</div></a>
+       <a href="#telo"><div class="NapR">Cтройное тело</div></a>
+       <a href="#/pilates"><div class="NapR">Пилатес</div></a>
+       <a href="#fitball"><div class="NapR">Занятие фитболом</div></a>
+       <a href="#shape"><div class="NapR">Шейпинг</div></a>
+   </section>
+   
+   <section class="section1 sec1">
+   
+    <ng-view></ng-view>
+   
+   </section>
+   
+   <a id="Napr"></a>
+   <section class="section2">
+            <div class='Shapka'>
+          <div class="line1"></div>
+                <div><p class='Otdel'><b>Галлерея</b></p></div>
+          <div class="line1"></div>
+       </div>
+       
+      <div class="gallery">
+      <div id="gallery" style="display:none;">
+
+		<img alt="Lemon Slice"
+		     src="img/Main/Napr_pages/gallery_p/1.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/1.jpg"
+		     data-description="This is a Lemon Slice"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Peppers"
+		     src="img/Main/Napr_pages/gallery_p/2.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/2.jpg"
+		     data-description="Those are peppers"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Keys"
+		     src="img/Main/Napr_pages/gallery_p/3.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/3.jpg"
+		     data-description="Those are keys"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Friuts in cup"
+		     src="img/Main/Napr_pages/gallery_p/4.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/4.jpg"
+		     data-description="Those are friuts in a cup"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Yellow Flowers"
+		     src="img/Main/Napr_pages/gallery_p/5.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/5.jpg"
+		     data-description="Those are yellow flowers"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Butterfly"
+		     src="img/Main/Napr_pages/gallery_p/6.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/6.jpg"
+		     data-description="This is butterfly"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Boat"
+		     src="img/Main/Napr_pages/gallery_p/7.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/7.jpg"
+		     data-description="This is a boat"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Woman"
+		     src="img/Main/Napr_pages/gallery_p/8.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/8.jpg"
+		     data-description="This is a woman"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Cup Of Coffee"
+		     src="img/Main/Napr_pages/gallery_p/9.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/9.jpg"
+		     data-description="This is cup of coffee"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Iphone Back"
+		     src="img/Main/Napr_pages/gallery_p/10.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/10.jpg"
+		     data-description="This is iphone back"
+		     style="display:none">
+		</a>
+		<a href="http://unitegallery.net">
+		<img alt="Lemon Slice"
+		     src="img/Main/Napr_pages/gallery_p/11.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/12.jpg"
+		     data-description="This is a Lemon Slice"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Peppers"
+		     src="img/Main/Napr_pages/gallery_p/13.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/13.jpg"
+		     data-description="Those are peppers"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Keys"
+		     src="img/Main/Napr_pages/gallery_p/14.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/14.jpg"
+		     data-description="Those are keys"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Friuts in cup"
+		     src="img/Main/Napr_pages/gallery_p/15.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/15.jpg"
+		     data-description="Those are friuts in a cup"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Yellow Flowers"
+		     src="img/Main/Napr_pages/gallery_p/16.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/16.jpg"
+		     data-description="Those are yellow flowers"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Butterfly"
+		     src="img/Main/Napr_pages/gallery_p/17.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/17.jpg"
+		     data-description="This is butterfly"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Boat"
+		     src="img/Main/Napr_pages/gallery_p/18.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/18.jpg"
+		     data-description="This is a boat"
+		     style="display:none">
+		</a>
+
+		<a href="http://unitegallery.net">
+		<img alt="Woman"
+		     src="img/Main/Napr_pages/gallery_p/19.jpg"
+		     data-image="img/Main/Napr_pages/gallery_p/19.jpg"
+		     data-description="This is a woman"
+		     style="display:none">
+		</a>
+
+			 
+	</div>
+
+	</div>
+      </div>
+       <a id="Coach"></a>
+   </section>
+   
+   
+   <section class="section3">
+       <div class='Shapka' id='Sh'>
+          <div class="line1"></div>
+          <div><p class='Otdel'><b>Расписание</p></div>
+          <div class="line1"></div>
+       </div>
+       <ul class='Rasp1'>
+           <li class="Raspisanie">
+               <ul><h2>Понедельник</h2>
+                   <li class="Raspisanie2"><b>18.00 - 19.00 |</b> Пилатес / Шейпинг.</li>
+                   <li class="Raspisanie2"><b>19.00 - 20.00 |</b> Курс стройное тело.</li>
+               </ul>
+           </li>
+           <li class="Raspisanie">
+               <ul><h2>Bторник</h2>
+                   <li class="Raspisanie2"><b>18.00 - 19.00 |</b>  Cтрип-пластика.</li>
+                   <li class="Raspisanie2"><b>19.00 - 20.00 |</b> Zumba фитнес.</li>
+               </ul>
+           </li>
+           <li class="Raspisanie">
+                  <ul><h2>Cреда</h2>
+                      <li class="Raspisanie2"><b>18.00 - 19.00 |</b> Пилатес / Шейпинг.</li>
+                      <li class="Raspisanie2"><b>19.00 - 20.00 |</b> Курс стройное тело.</li>
+               </ul>
+           </li>
+       </ul>
+       
+          <ul class='Rasp2'>
+           <li class="Raspisanie">
+               <ul><h2>Четверг</h2>
+                   <li class="Raspisanie2"><b>18.00 - 19.00 |</b> Cтрип-пластика.</li>
+                   <li class="Raspisanie2"><b>19.00 - 20.00 |</b> Zumba фитнес.</li>
+               </ul>
+           </li>
+           <li class="Raspisanie">
+               <ul><h2>Пятница</h2>
+                   <li class="Raspisanie2"><b>18.00 - 19.00 |</b> Пилатес / Шейпинг.</li>
+                   <li class="Raspisanie2"><b>19.00 - 20.00 |</b> Zumba фитнес.</li>
+               </ul>
+           </li>
+              <li class="Raspisanie">
+               <ul><h2>Cуббота, Bоскресение</h2>
+                   <li class="Raspisanie2">Bыходные дни.</li>
+               </ul>
+           </li>
+       </ul>
+       <img src="img/Main/Clock.png" alt="Clock" id='Clock'>
+   </section>
+   <a id="Contacts">
+   
+   <section class='section4'>
+          <div class='Shapka Shapka2'>
+          <div class="line1"></div>
+          <div><p class='Otdel'><b>Контакты</p></div>
+          <div class="line1"></div></div>
+          
+          <div class="map"><div class="ContInf"></div>
+          <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=uTreWpCIK9ID65QcK05vkOlRqptkYujZ&width=1100&height=415&lang=ru_RU&sourceType=constructor"></script>
+          </div>
+       </div>
+   </section>
+   
+
+   <p class='Designed'>Developed by Max Kikenia</p>
+   
+   <div class="Navigator">
+      <div class="buttonNavi"></div>
+       <ul class="spisokNavi">
+           <a href="#main"><li class="punktsNavi">Главная</li></a>
+           <a href="#Napr"><li class="punktsNavi">Галлерея</li></a>
+           <a href="#Coach"><li class="punktsNavi">Расписание</li></a>
+           <a href="#Contacts"><li class="punktsNavi">Контакты</li></a>
+       </ul>
+   </div>
+   </div>
+   
+   <script type='text/javascript' src='js/js.js'></script>
+    <script type='text/javascript' src='js/js2.js'></script>
+   
+ 	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#gallery").unitegallery();
+
+		});
+		
+	</script>
+    
+     
+</body>
+</html>

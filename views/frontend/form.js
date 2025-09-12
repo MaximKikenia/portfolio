@@ -45,8 +45,6 @@ form["sendButton"].addEventListener('click', function (event) {
         userAgent: form.userAgree.checked 
     };
 
-    console.log(formData);
-
 
     async function sendData(errorFiled) {
         

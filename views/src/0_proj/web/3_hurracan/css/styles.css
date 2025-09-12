@@ -1,0 +1,507 @@
+body {
+    width: 1450px;
+    margin: 0 auto;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#header {
+    width: 1430px;
+    height: 200px;
+    margin: -36px 0;
+}
+
+
+#head-car {
+    width: 414px;
+    height: 161px;
+    display: inline-block;
+    float: left;
+    margin: 37px 0 0 85px;
+    background: url('../photoes/car_lambo.jpg');
+    background-size: 430px;
+    background-position: 0 -120px;
+}
+
+#head-car:hover {
+    background: url('../photoes/lamba_motion.gif');
+    background-size: 430px;
+    background-position: 0 -120px;
+}
+
+@-webkit-keyframes LogoAnimation
+{
+    from { transform: scale(1); }
+    50% {transform: scale(1.1);}
+    to { transform: scale(1.2);}
+}
+
+
+#head-logo {
+    width: 118px;
+    height: 143px;
+    display: inline-block;
+    margin: 58px 0 0 108px;
+    float: left;
+    background: url('../photoes/logo_lambo2.png');
+    background-size:120px;
+    background-position: 0 px;
+    background-repeat: no-repeat;
+    transform: scale(1);
+}
+
+#head-logo:hover {
+    -webkit-animation:
+        LogoAnimation 1s infinite;
+}
+
+
+#menu-punkts {
+    list-style: none;
+    font-size: 27px;
+    font-family: 'Bad Script', cursive;
+    display: inline-block;
+    margin: -40px 20px;
+    padding: 15px 0;
+}
+
+.punkt1 {
+    border-bottom: black 2px solid;
+}
+
+#menu {
+    margin: 104px 0 0 52px;
+    width: 650px;
+    display: inline-block;
+}
+
+#menu-punkts:hover {
+    border-bottom: #ff5800 2px double;
+    color: #ff5800;
+}
+
+#section1 {
+    height: 350px;
+    margin: 70px 0 30px 0;
+}
+
+#section2 {
+    height: 370px;
+    margin: -15px 0;   
+}
+
+#planka-description, #planka-description2 {
+    width: 232px;
+    height: 41px;
+    border: black 1px solid;
+    background: black;
+    display-inline: block;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+#planka-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    font-size: 19px;
+    color: white;
+}
+
+#section1-text {
+    width: 700px;
+    height: 295px;
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: -24px;
+}
+
+#section1-gallery {
+    width: 715px;
+    height: 330px;
+    display: inline-block;
+    margin: -39px 0;    
+}
+
+p, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    white-space: pre-wrap;
+}
+
+
+
+/*Галлерея*/
+
+.gallery-pic1 {
+    width: 157px;
+    height: 157px;
+    display: inline-block;
+    float: left;
+    background: url('../photoes/main_gallery/4.jpg');
+    background-size: 310px;
+    background-position: 10em 61.3em;
+}
+
+.gallery-pic2 {
+    width: 343px;
+    height: 157px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url('../photoes/main_gallery/2.jpg');
+    background-size: 580px;
+    background-position: -150px -190px;
+}
+
+.gallery-pic3 {
+    width: 343px;
+    height: 157px;
+    display: inline-block;
+    margin: 7px 0;
+    float: left;
+    background: url('../photoes/main_gallery/1.jpg');
+    background-size: 580px;
+    background-position: -170px -150px;
+}
+
+.gallery-pic4 {
+    width: 157px;
+    height: 157px;
+    display: inline-block;
+    float: left;
+    margin: 7px 10px;
+    background: url('../photoes/main_gallery/3.jpg');
+    background-size: 480px;
+    background-position: -90px -160px;
+}
+
+.gallery-pic5 {
+    width: 190px;
+    height: 327px;
+    margin: -163px 0 0 522px;
+    background: url('../photoes/main_gallery/5.jpg');
+    background-size: 710px;
+    background-position: -210px -90px;
+}
+
+/*--------------------------------------*/
+
+#planka-description2 {
+    margin-top: 27px;
+}
+
+#blackpalka {
+    width: 1100px;
+    height: 2px;
+    margin-left: 300px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+    border: dotted black 2px;
+}
+
+#blackpalka2 {
+    width: 400px;
+    height: 2px;
+    border: dotted black 2px;
+    margin-left: 600px;
+    margin-top: -65px;
+    margin-bottom: 75px;
+}
+
+#video {
+    width: 314px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    margin: 22px 22px;
+}
+
+#video1 {
+    width: 354px;
+    height: 233px;
+    display: inline-block;
+    float: left;
+    margin: 22px 0 0 0;
+}
+
+#videotxt {
+    padding: 0px 20px;
+}
+
+#video-title {
+    text-align: center;
+    margin-top: -9px;
+}
+
+#Madeby {
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 16px;
+    margin-top: -22px;
+}
+
+
+
+/*Gallery-----------------------------------------------------------------------------------------------*/
+
+.Lup1 {
+    background: url('../photoes/strelki.png');
+    background-size: 300px;
+    border-radius: 50px;
+    background-position: 83.4px -19px;
+    margin: 47px 49px;
+}
+
+#header, #section1, #section2, #Madeby, #t-section1, #t-blackpalka2, #t-section2, #t-blackpalka1 {
+    opacity: 0;
+}
+
+/*Preloader Container__________________________________________________________________*/
+.ContPreload {
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+
+/*Adaptiv - Pad____________________________________________________________________________________*/
+
+@media all and (max-width:  1470px) {
+    body {
+        width: 1000px;   
+    }
+    
+    #head-logo {
+        margin: 61px 0 0 45px;
+    }
+    
+    #header {
+        width: 715px;
+        height: 380px;
+        margin: 0 auto;
+    }
+    
+    #head-car {
+        margin: 37px 0 0 75px;
+    }
+    
+    #menu {
+        margin: 60px 0 0 52px;
+        
+    }
+    
+    #section1 {
+        margin: 10px 0 30px 0;
+        height: 750px;
+    }
+    
+    #blackpalka2 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -95px;
+    }
+    
+    #planka-description {
+        margin: 18px auto;
+    }
+    
+    #section1-text {
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    #section1-gallery {
+        margin: 30px auto;
+        display: block;
+    }
+    
+    .Lup1 {
+        border: white solid 3px;
+    }
+    
+    #section2 {
+        height: 630px;
+        width: 735px;
+        margin: 0 auto;
+    }
+    
+    #blackpalka {
+        width: 35%;
+        margin-left: 390px;
+    }
+    
+    #planka-description2 {
+        margin-left: 9%;
+    }
+    
+    .v_adap {
+        margin-left: -9px;
+    }
+    
+    #video {
+        float: none;
+    }
+    
+}
+
+/*Adaptiv-Mobile__________________________________________________________________________________*/
+
+@media all and (max-width:  1050px) {
+    body {
+        width: 310px;
+    }
+    
+    #header {
+        height: 670px;
+        width: 310px;
+    }
+    
+    #head-car {
+        width: 310px;
+        margin: 0;
+        background-size: 300px;
+        background-position: 2px -65px;
+        
+    }
+    
+    #head-car:hover {
+         width: 310px;
+        margin: 0;
+        background-size: 300px;
+        background-position: 2px -65px;
+    }
+    
+    #head-logo {
+        margin: 170px 0 0 -195px;
+        width: 80px;
+        height: 90px;
+        background-size: 80px;
+    }
+    
+    
+    #menu {
+        height: 390px;
+        width: 160px;
+        margin: 270px 0 0 -245px;
+    }
+    
+    #menu-punkts {
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }
+    
+    #menu-punkts:hover {
+        border: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+        p {
+        padding: 20px;
+    }
+    
+    #section1 {
+        width: 310px;
+        height: 1900px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    
+    #section1-text {
+        float: none;
+    }
+    
+    #section1-gallery {
+        width: 310px;
+    }
+    
+    .GalIndex {
+        margin: 15px 0;
+    }
+    
+    .gallery-pic1, .gallery-pic4 {
+         margin-left: 79px; 
+    }
+
+    .gallery-pic2, .gallery-pic3 {
+        
+        width: 100%;
+    }
+    
+    .gallery-pic5 {
+        margin:390px 0 0 63px;
+        
+    }
+    
+    #section2 {
+        width: 310px;
+        height: 1250px;
+        overflow: hidden;
+        margin-top: -60px;
+        overflow: hidden;
+    }
+    
+    #planka-description2 {
+        margin-left: 37px;
+    }
+    
+    #blackpalka {
+        margin-top: 50px;
+        margin-left: 46px;
+        width: 70%;
+    }
+    
+    .v1 {
+        width: 87.5%;
+    }
+    
+    .v2{
+        margin-left: -23px;
+        width: 100%;
+    }
+    
+    #video {
+        width: 101%;
+    }
+    
+    #videotxt {
+        margin-left: -38px;
+        padding: 0 30px;
+    }
+   
+    #video-title {
+        margin: 10px 0 0 -40px;
+    }
+    
+    .v_adap {
+        width: 100%;
+        margin: 20px 0 0 -25px;
+    }
+    
+    #Madeby {
+        width: 310px;
+    }
+    
+    #design-text {
+        margin-left: 15px;
+    }
+    
+}
+
+
+

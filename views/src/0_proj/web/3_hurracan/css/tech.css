@@ -1,0 +1,360 @@
+#Madeby {
+    margin-top: 1em;
+}
+
+#t-blackpalka1 {
+    width: 100%;
+    height: 2px;
+    margin-top: 45px;
+    border: dotted black 2px;
+}
+
+#t-section1 {
+    margin-top: 5px;
+    height: 470px;
+    margin-bottom: -25px;
+}
+
+#t-block1 {
+    width: 380px;
+    height: 468px;
+    border: solid red 1px;
+    display: inline-block;
+    float: left;
+    border-color: transparent;
+    margin-left: 111px;
+}
+
+#t-spisok {
+    list-style: none;
+    margin-left: -1.3em;
+    padding: 4px 14px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+#t-spisok:first-child {
+    margin-top: 23px;
+}
+
+#t-G-spisok {
+    border: solid red 1px;
+    height: 340px;
+    background:#242323;
+    border-color: transparent;
+}
+
+#t-text {
+    margin-left: 35px;
+    margin: 19px;
+}
+
+#t-block2 {
+    width: 124px;
+    height: 383px;
+    display: inline-block;
+    float: left;
+    margin: 45px 75px 0 107px;
+    display: inline-block;
+    float: left;
+    border: double #9b9b9b 4px;
+}
+
+#t-G-spisok2 {
+    margin-left: -.7em;
+    
+}
+
+#t-spisok2 {
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    padding: 3.5px;
+    color: black;
+}
+
+#t-spisok2:first-child {
+    margin-top: 49px;
+}
+
+#car-color {
+    width: 585px;
+    height: 468px;
+    display: inline-block;
+    margin-left: -15px; 
+}
+
+.car {
+    width: 585px;
+    height: 350px;
+    display: inline-block;
+    background: url('../photoes/lamboExterier/colors/1_Arancio_Borealis.jpg');
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: 40px 90px;
+}
+
+.perekl {
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: solid black 1px;
+    margin: 12px 7px;
+}
+
+#G-perekl {
+    background: yellow;
+    width: 370px;
+    margin: 0 auto;
+}
+
+#t-section2 {
+    margin-top: 15px;
+    height: 250px; 
+    margin-bottom: -5px;
+}
+
+.t-gallery {
+    width:319px;
+    height: 198px;
+    display: inline-block;
+    float: left;
+    margin: 16px;
+    margin-top: 25px;
+}
+
+.t-gallery:first-child {
+    margin-left: 32px;
+}
+
+#t-blackpalka2 {
+    width: 60%;
+    height: 2px;
+    margin-top: 45px;
+    margin-left: 310px;
+    border: dotted black 2px;
+}
+
+.color-name {
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 166px;
+    margin-top: 19px;
+    color: #905300;
+}
+
+.t-1 {
+    background: url('../photoes/lamboExterier/lamborghini-huracan-2015-38.jpg');
+    background-size: 400px;
+}
+
+.t-2 {
+    background: url('../photoes/lamboExterier/lamborghini-huracan-2015-44.jpg');
+    background-size: 400px;
+}
+
+.t-3 {
+    background: url('../photoes/lamboExterier/lamborghini-huracan-2015-24.jpg');
+    background-size: 400px;
+}
+
+.t-4 {
+    background: url('../photoes/lamboExterier/2014-lamborghini-huracan-lp610-4-13.jpg');
+    background-size: 400px;
+}
+
+.punkt1 {
+    border-bottom: none;   
+}
+
+.punkt3 {
+    border-bottom: black 2px solid;
+}
+
+
+/*-------------------------------Slider_Color*/
+
+.car0 {
+    background: url('../photoes/lamboExterier/colors/1_Arancio_Borealis.jpg');
+}
+
+.car1 {
+    background: url('../photoes/lamboExterier/colors/2_Bianco_Icarus_Metallic.jpg');
+}
+
+.car2 {
+    background: url('../photoes/lamboExterier/colors/3_Verde_Mantis.jpg');
+}
+
+.car3 {
+    background: url('../photoes/lamboExterier/colors/4_Blu_Caelum_Ad_Personam_Metallic.jpg');
+}
+
+.car4 {
+    background: url('../photoes/lamboExterier/colors/5_Giallo_Midas_Pearl_Effect.jpg');
+}
+
+.car5 {
+    background: url('../photoes/lamboExterier/colors/6_Marrone_Alcestis_Ad_Personam_Metallic.jpg');
+}
+
+.car6 {
+    background: url('../photoes/lamboExterier/colors/7_Nero_Serapis_Metallic.jpg');
+}
+
+.car6 {
+    background: url('../photoes/lamboExterier/colors/8_Rosso_Mars_Metallic.jpg');
+}
+
+.car7 {
+    background: url('../photoes/lamboExterier/colors/9_Bianco_Monocerus.jpg');
+}
+
+.carG {
+    width: 585px;
+    height: 350px;
+    display: inline-block;
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: 40px 90px;
+    transition-duration: .5s;
+}
+
+.Lup1 {
+    background: url('../photoes/strelki.png');
+    background-size: 300px;
+    border-radius: 50px;
+    background-position: 83.4px -19px;
+}
+
+.ContPreload {
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+
+/*Adaptiv Pad____________________________________________________________________*/
+
+@media all and (max-width:  1470px) {
+    body {
+        width: 1000px;   
+    }
+    
+    #t-section1 {
+        height: 1000px;
+        margin-top: 10px;
+    }
+    
+    #t-blackpalka1 {
+        margin-top: -10px;
+    }
+    
+    #t-block1 {
+        margin-left: 190px;
+    }
+    
+    #car-color {
+        margin-left: 210px;
+    }
+    
+    #t-section2 {
+        width: 705px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    
+    #t-blackpalka2 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    .t-gallery:first-child {
+        margin-left: 19px;
+    }
+    
+    #Madeby {
+        width: 395px;
+    }
+
+}
+
+
+/*Adaptiv Mobile____________________________________________________________*/
+
+
+@media all and (max-width:  1050px) {
+     body {
+        width: 310px;
+    }
+    
+    #t-section1 {
+        height: 1500px;
+    }
+    
+    #t-block1 {
+        margin: 0;
+        width: 310px;
+    }
+    
+    #t-G-spisok {
+        height: 380px;
+    }
+    
+    #t-block2 {
+       margin: 70px 0 0 91px; 
+    }
+    
+    #car-color {
+        width: 100%;
+        margin: 0;
+        margin-top: -15px;
+    }
+    
+    .car{
+        width: 100%;
+        height: 300px;
+        background-size: 300px;
+        background-position: 4px 120px;   
+    }
+    
+    #G-perekl {
+        width: 90%;
+    }
+    
+    .color-name {
+        margin-left: 15px;
+    }
+    
+    #t-section2 {
+        width: 310px;
+        margin-top: 30px;
+        height: 970px;
+        overflow: hidden;
+    }
+    
+    .t-gallery:first-child {
+        margin-left: -9px;
+    }
+    
+    .t-gallery {
+        margin-left: -9px;
+    }
+    
+    #Madeby {
+        width: 310px;
+    }
+
+}
+
+
+

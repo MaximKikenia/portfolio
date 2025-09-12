@@ -1,0 +1,142 @@
+
+#header {
+    margin: -36px auto;
+    margin-bottom: 25px;
+    width: 1350px;
+}
+
+#Madeby {
+    font-style: bold;
+}
+
+#gallery {
+    margin-bottom: 35px;
+}
+
+body {
+    width: 1460px;
+}
+
+#head-car {
+    margin-left: 1px;
+}
+
+#blackpalka3 {
+    width: 90%;
+    margin: 0 auto;
+    height: 2px;
+    border: dotted black 2px;
+    margin-bottom: 45px;
+    margin-top: 5px;
+}
+
+.punkt1 {
+    border-bottom: none;
+    
+}
+
+.punkt2 {
+    border-bottom: black 2px solid;
+    
+}
+
+#gallery, #blackpalka3 {
+    opacity: 0;
+}
+
+.preloader {
+    
+width: 150px;
+height: 150px;
+background-image: url("../photoes/preloader3.gif");
+background-size: 60px;
+background-repeat: no-repeat;
+background-position: 43px 45px;
+margin: 19% auto;
+opacity: 1;
+position: relative;
+}
+
+.ContPreload {
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+
+@media all and (max-width:  1470px) {
+    body {
+        width: 1000px;   
+    }
+    
+    #head-logo {
+        margin: 61px 0 0 45px;
+    }
+    
+    #header {
+        width: 715px;
+        height: 380px;
+        margin: 0 auto;
+    }
+    
+    #head-car {
+        margin: 37px 0 0 75px;
+    }
+    
+    #menu {
+        margin: 60px 0 0 52px;
+        
+    }
+}
+
+@media all and (max-width:  1050px) {
+    body {
+        width: 310px;
+    }
+    
+    #header {
+        height: 670px;
+        width: 310px;
+    }
+    
+    #head-car {
+        width: 310px;
+        margin: 0;
+        background-size: 300px;
+        background-position: 2px -65px;
+    }
+    
+    #head-logo {
+        margin: 170px 0 0 -195px;
+        width: 80px;
+        height: 90px;
+        background-size: 80px;
+    }
+    
+    #menu {
+        height: 390px;
+        width: 160px;
+        margin: 270px 0 0 -245px;
+    }
+    
+    #menu-punkts {
+        display: block;
+        margin: 0 auto;
+        border: none;
+    }
+    
+    #menu-punkts:hover {
+        border: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+        p {
+        padding: 20px;
+    }
+}

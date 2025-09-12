@@ -1,0 +1,562 @@
+body {
+    width: 1280px;
+    height: 1300px;
+    margin: 0 auto;
+    overflow-x:hidden;
+}
+
+.flower1 {
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+    left: -470px;
+    top: 160px;
+}
+
+.flower3 {
+    position: absolute;
+    z-index: -1;
+    width: 59%;
+    left: -630px;
+    top: 1510px;
+}
+
+.flower2 {
+    position:absolute;
+    z-index: -1;
+    width: 25%;
+    right: -155px;
+    top: -270px;  
+}
+
+.flower4 {
+    position:absolute;
+    z-index: -1;
+    width: 75%;
+    right: -660px;
+    top: 970px; 
+}
+
+.flower5 {
+    position:absolute;
+    z-index: -1;
+    width: 85%;
+    top: 2900px;
+    left: 180px;
+}
+
+/*Header*/
+header {
+    width: 1080px;
+    height: 150px;
+    margin: 0 auto;
+    border: solid transparent .1px;
+}
+
+.logo {
+    width: 188px;
+    height: 116px;
+    display: inline-block;
+    float: left;
+    background: url('../img/Main/leo_logo2.jpg');
+    background-size: 100%;
+    margin-top: 7px;
+}
+
+.menu_punkts {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    padding: .35em 1.1em .35em;
+    margin-right: 1.1em;
+    border: solid transparent 1px;
+    border-radius: 5px;
+    transition-duration: .5s;
+    border: solid #8b8b8b 1px;
+}
+
+
+.menu {
+    width: 680px;
+    margin: 65px 390px 0 185px;
+}
+
+.soc1 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: -.4em;
+    background: url('../img/Main/soc_seti/vk.png');
+    background-size: 100%;
+    background-position: -.5px -.5px;
+    transition-duration: .8s;
+}
+
+.soc2 {
+    margin-left: 15px; 
+    background: url('../img/Main/soc_seti/inst.jpg');
+    background-size: 100%;
+    background-position: -.5px -.5px;
+}
+
+.soc1:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 50px rgba(225, 18, 234, 0.5);
+}
+
+/*section1*/
+
+.section1 {
+    width: 1080px;
+    height: 550px;
+    margin: -2em auto;
+    position: relative;
+}
+
+.Predl {
+    width: 447px;
+    height: 273px;
+    padding-top: 1em;
+    margin: 0px 0 0 0px; 
+}
+
+.StudiaText {
+    width: 447px;
+    margin-top: 5em;
+    border: solid transparent 1px;
+}
+
+
+.napr_spis_1, .napr_spis_2 {
+    display: block;
+    list-style:disc;
+    width: 140px;
+    float: left;
+    font-weight: 100;
+    font-size: 1em;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -.1em;
+}
+
+.napr_spis_1 {
+    margin-left: 35px;   
+}
+
+
+.napr_spisok {
+    padding: .2em 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+p {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+    font-size: 1em;
+    color: black;
+}
+
+
+.girl1 {
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    z-index: -2;
+    width: 140%;
+}
+
+/*Section2_______________*/
+
+.section2 {
+    margin: 60px 0 70px 0;
+}
+
+.line1 {
+    width: 90px;
+    height: 1.4px;
+    background: #8b8b8b;
+    float: left;
+    margin: 0 25px;
+}
+
+
+.Otdel {
+    font-size: 1.1em;
+    width: 150px;
+    border: grey 1px solid;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+    float: left;
+    margin-top: -18px;
+}
+
+.Shapka {
+    width: 447px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    display: block;
+}
+
+.Napravlenia {
+    width: 980px;
+    height: 410px;
+    margin: 0 auto;
+}
+
+.Nap_block {
+    width: 312px;
+    height: 185px;
+    display: inline-block;
+    float: left;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.Trener_photoes {
+    height: 200px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.tren {
+    width: 100px;
+    height: 100px;
+    border: solid transparent 1px;
+    display: block;
+    border-radius: 100px;
+    margin: 0 30px;
+    float: left;
+    float: left;
+    background: url('../img/Main/Numbers.png');
+    background-size: 880%;
+    background-position: -21px;
+    transition-duration: .3s;
+}
+
+.tren:hover {
+    box-shadow: 0 0 50px #e5e1ff;
+}
+
+.tren:hover > .Tren_name {
+    margin-top: 140px;
+    color: #656565;
+}
+
+.tren:nth-child(2) {
+    background-position: -166px
+}
+
+.tren:nth-child(3) {
+    background-position: -308px
+}
+
+.tren:nth-child(4) {
+    background-position: -459px
+}
+
+.tren:nth-child(5) {
+    background-position: -605px
+}
+
+.tren:nth-child(6) {
+    background-position: -749px
+}
+
+.Tren_name {
+    width: 160px;
+    margin-top: 120px;
+    margin-left: -29px;
+    font-size: .9em;
+    transition-duration: .3s;
+}
+
+.section3 {}
+.section4 {
+    margin-top: 80px;
+}
+
+.map {
+    height: 415px;
+    width: 1100px;
+    margin: 0px auto;
+    box-shadow: 0 0 30px grey;
+    position: relative;
+}
+
+.ContInf {
+    width: 330px;
+    height: 330px;
+    background: white;
+    box-shadow: 0 0 60px #e5e1ff;
+    border-radius: 5px;
+    position: absolute;
+    top: 45px;
+    left: 810px;
+    z-index: 3;
+    display: inline-block;
+    background: url('../img/Main/photoes/Cont.jpg');
+    background-size: 110%;
+    background-position: -17px -17px;
+}
+
+.section5 {
+    width: 820px;
+    margin: 130px auto;
+}
+
+.forma {
+    width: 440px;
+    height: 310px;
+    box-shadow: 0 0 50px #e5e1ff;
+    border-radius: 5px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.phone {
+    width: 228px;
+    margin: -10px 0 0 35px;
+    transform: rotate(22deg);
+    position: relative;
+    z-index: -5;
+}
+
+#window1 {
+    width: 84%;
+    height: 30px;
+    border-radius: 5px;
+    border:  #8b8b8b 1px solid;
+    font-size: .9em;
+    margin: 20px 0 0 20px;
+    padding-left: 27px;
+    transition-duration: .2s;
+    font-family: 'Comfortaa', cursive;border: solid red 1px;
+}
+
+.area {
+    width: 77.8%;
+    height: 145px;
+    border-radius: 5px;
+    border: solid #8b8b8b 1px;
+    font-size: .9em;
+    padding: 9.2px 27px;
+    transition-duration: .2s;
+    font-family: 'Comfortaa', cursive;
+    line-height: 160%;
+    margin: 0 0 0 20px;
+}
+
+
+
+.button {
+    margin-left: 297px;
+    margin-top: -5px;
+    font-size: .9em;
+    width: 120px;
+    height: 35px;
+    background: white;
+    border: solid #8b8b8b 1px;
+    border-radius: 5px;
+    transition-duration: .2s;
+    font-family: 'Comfortaa', cursive;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 1px #7fd8ff;
+}
+
+#window1:hover {
+    box-shadow: 0 0 10px 1px #e5e1ff;
+}
+
+.area:hover {
+    box-shadow: 0 0 10px 1px #e5e1ff;
+}
+
+.Designed {
+    font-size: .9em;
+    margin-top: -85px;
+}
+
+.NP1 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -60px -115px;
+}
+
+.NP2 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -420px -115px;
+}
+
+.NP3 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -760px -115px;
+}
+
+.NP4 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -60px -315px;
+}
+
+.NP5 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -420px -315px;
+}
+
+.NP6 {
+    background: url('../img/Main/napr/zumba.jpg');
+    background-size: 360%;
+    background-position: -760px -315px;
+}
+
+/*Навигатор по сайту*/
+
+.spisokNavi {
+    font-family: 'Comfortaa', cursive;
+    font-size: .9em;
+    list-style: none;
+    width: 90px;
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0 0 50px #e5e1ff;
+    background: white;
+    position: fixed;
+    top: 290px;
+    right: 20px;
+    z-index:3;
+}
+
+.punktsNavi {
+    padding: 2px;
+    transition-duration: .5s;
+}
+
+.punktsNavi:hover {
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonNavi {
+    position: fixed;
+    top: 290px;
+    z-index: 4;
+    right: 7px;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 10px 10px;
+    border-radius: 50px;
+    background: url('../img/Main/Strelka1.jpg');
+    background-size: 100%;
+}
+
+.Show {
+    right: -500px;
+}
+
+.greenButton {
+    background: url('../img/Main/Strelka2.jpg');
+    background-size: 100%;
+}
+
+
+/*Hover effects Napravlenia*/
+
+.UZ {
+        width: 155px;
+        margin: 35px auto; 
+        color: black;
+        fontSize: .8em;
+        padding:5px;
+        borderRadius: 5px;
+        font-size: .9em;
+        transition-duration: .3s;
+        border-radius: 5px;
+}    
+
+
+.desc {
+      color: black;
+      position: relative;
+      top : 30px;
+      width: 150px;
+      margin: 0 auto;
+      padding: 10px;
+      borderRadius : 5px;
+      fontSize: 1.3em;
+}
+    
+.Hover {
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .9;
+    position: relative;
+    top: 200px;
+    transition-duration: .4s
+}
+
+.Nap_block:hover > .Hover {
+    top: 0;
+}
+
+.UZ:hover {
+    background: #dd94d4;
+    border-radius: 5px;
+    color: white;
+}
+
+.window_form {
+    width: 440px;
+    border: solid transparent 1px;
+    float: left;
+}
+
+.Valid_style {
+    margin-bottom: -10px;
+}
+
+.form_valid_text {
+    margin-bottom: -25px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: .94em;
+    text-align: left;
+    color: red;
+    padding-left: 15px;
+}
+
+.areaform {
+    border: solid transparent 1px;
+    width: 55%;
+    width: 55%;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+
+
+.section3, .section4, .section5 {
+    transition-duration: .8s;
+}
+
+

@@ -1,0 +1,726 @@
+a {
+    color: black;
+}
+
+#O-blackpalka {
+    width: 48%;
+    height: 2px;
+    margin: 45px 0 0 52%;
+    border: dotted black 2px;
+}
+
+#O-blackpalka2 {
+    width: 48%;
+    height: 2px;
+    margin: 5px 0 -4px 0;
+    border: dotted black 2px;
+}
+
+
+#O-section1 {
+    margin-top: 15px;
+    height: 350px;
+}
+
+#Maclaren {
+    height: 350px;
+    width: 640px;
+    display: inline-block;
+    float: left;
+    margin: 0 52px;
+
+}
+
+#Audi {
+    height: 350px;
+    width: 640px;
+    display: inline-block;
+}
+
+#text {
+    width: 250px;
+    height: 275px;
+    margin: -3px 30px 26px 30px;
+    display: inline-block;
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.M-photo1 {
+    width: 310px;
+    height: 133px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -9px;
+    background: url("../photoes/other/mclaren/1.jpg");
+    background-size: 320px;
+    background-position: -7px -42px;
+}
+
+.M-photo2 {
+    width: 145px;
+    height: 133px;
+    display: inline-block;
+    margin: 20px 14px 0 0;
+    background: url("../photoes/other/mclaren/2.jpg");
+    background-size: 350px;
+    background-position: -1px -69px;
+}
+
+.M-photo3 {
+    width: 145px;
+    height: 133px;
+    display: inline-block;
+    margin-top: 20px;
+    background: url("../photoes/other/mclaren/3.jpg");
+    background-size: 400px;
+    background-position: -5px -80px;
+}
+
+#shapka {
+    border: solid black 1px;
+    padding: 5px;
+    width: 170px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+#box-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 8px;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    white-space: pre-wrap;
+}
+
+/*Фотки тачек*/
+.Ph-Audi-1 {
+    background: url('../photoes/other/audi/1.jpg');
+    background-size: 305px;
+    background-position: 2px -39px;
+}
+
+
+
+.Ph-Audi-2 {
+    background: url('../photoes/other/audi/2.jpg');
+    background-size: 305px;
+    background-position: -60px -60px;
+}
+
+.Ph-Audi-3 {
+    background: url('../photoes/other/audi/3.jpg');
+    background-size: 310px;
+    background-position: -61px -49px;
+}
+
+.Ph-Ferrari-1 {
+    background: url('../photoes/other/ferrari/1.jpg');
+    background-size: 330px;
+    background-position: -12px -31px;
+    
+}
+
+.Ph-Ferrari-2 {
+    background: url('../photoes/other/ferrari/2.jpg');
+    background-size: 450px;
+    background-position: -120px -68px;    
+}
+
+.Ph-Ferrari-3 {
+    background: url('../photoes/other/ferrari/3.jpg');
+    background-size: 490px;
+    background-position: -115px -111px;    
+}
+
+.Ph-Bmw-1 {
+    background: url('../photoes/other/bmw/1.jpg');
+    background-size: 330px;
+    background-position: -10px -48px;   
+}
+
+.Ph-Bmw-2 {
+    background: url('../photoes/other/bmw/2.jpg');
+    background-size: 320px;
+    background-position: -70px -38px;   
+}
+
+.Ph-Bmw-3 {
+    background: url('../photoes/other/bmw/3.jpg');
+    background-size: 365px;
+    background-position: -70px -37px;   
+}
+
+#Madeby {
+    margin-top: 15px;
+    height: 40px;
+}
+
+#Networks {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    border: solid black 2px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight:800;
+    margin: 5px;
+    transition-duration: .2s;
+}
+
+#Networks:hover {
+    background: #ff6200;
+    color: white;
+    border-color: transparent;
+    transform: scale(1.2)
+}
+
+#design-text {
+font-family: 'Bad Script', cursive;
+    width: 250px;
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+}
+
+.Mayby2 {
+    width: 470px;
+    display: block;
+    margin: 0 auto;
+}
+
+#soundcloud {
+    margin: 7px 0 0 32px;
+}
+
+
+/*Hover-эффекты*/
+
+.Lupa {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition-duration: .3s;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.Lupa:hover {
+  opacity: .5;  
+}
+
+.LupaImg {
+    width: 50px;
+    height: 50px;
+    border: solid white 2px;
+    margin: 0% 0 0 42%;
+    background: url("../photoes/strelki.png");
+    background-size: 230px;
+    background-position: 66px -12.5px;
+    border-radius: 60px;
+    opacity: .7;
+    position: relative;
+    z-index: 2;
+    top: 40px;
+}
+
+.L-small {
+    left: -15px;
+    width: 50px;
+    height: 50px;
+    border: solid white 2px;
+    margin: 0% 0 0 42%;
+    background: url("../photoes/strelki.png");
+    background-size: 230px;
+    background-position: 66px -12.5px;
+    border-radius: 60px;
+    opacity: .7;
+    position: relative;
+    z-index: 2;
+    top: 40px;
+}
+
+/*Галлерея*/
+
+.gallery {
+    width: 1100px;
+    height: 700px;
+    display: inline-block;
+    margin: 140px auto;
+    background: yellow;
+    display: none;
+    box-shadow: 10px 10px 150px #2f2f2f;
+    border-radius: 10px;
+}
+
+.galleryCont {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 2;
+}
+
+
+
+.Zakrit, .strelka1, .strelka2 {
+    background-position: 116.5px -12.5px;
+    position: relative;
+    left: 610px;
+    top:  -135px;
+    width: 50px;
+    height: 50px;
+    border: solid white 2px;
+    margin: 0% 0 0 42%;
+    background: url("../photoes/strelki.png");
+    background-size: 230px;
+    background-position: 116.5px -12.5px;
+    border-radius: 60px;
+    opacity: .7;
+    position: relative;
+    z-index: 2;
+    transition-duration: .4s;
+}
+
+.Zakrit:hover {
+    transform: scale(1.2);
+}
+
+.G-Audi-1 {
+    background: url('../photoes/other/audi/1.jpg');
+    background-size: 1150px;
+    background-position: -22px 0px;
+}
+
+.G-Audi-2 {
+    background: url('../photoes/other/audi/2.jpg');
+    background-size: 1050px;
+    background-position: 24px -10px;
+}
+
+.G-Audi-3 {
+    background: url('../photoes/other/audi/3.jpg');
+    background-size: 1150px;
+    background-position: -22px 0px;
+}
+
+.G-MCL-1 {
+    background: url('../photoes/other/mclaren/1.jpg');
+    background-size: 1150px;
+    background-position: -22px 0px;
+}
+
+.G-MCL-2 {
+    background: url('../photoes/other/mclaren/2.jpg');
+    background-size: 1122px;
+    background-position: 1px -1px;
+}
+
+.G-MCL-3 {
+    background: url('../photoes/other/mclaren/3.jpg');
+    background-size: 1150px;
+    background-position: -22px -50px;
+}
+
+.G-FER-1 {
+    background: url('../photoes/other/ferrari/1.jpg');
+    background-size: 1150px;
+    background-position: -22px 0px;
+}
+
+.G-FER-2 {
+    background: url('../photoes/other/ferrari/2.jpg');
+    background-size: 1150px;
+    background-position: -22px 1px;
+}
+
+.G-FER-3 {
+    background: url('../photoes/other/ferrari/3.jpg');
+    background-size: 1150px;
+    background-position: -22px -50px;
+}
+
+.G-BMW-1 {
+    background: url('../photoes/other/bmw/1.jpg');
+    background-size: 1150px;
+    background-position: -22px 0px;
+}
+
+.G-BMW-2 {
+    background: url('../photoes/other/bmw/2.jpg');
+    background-size: 1140px;
+    background-position: -22px 0px;
+}
+
+.G-BMW-3 {
+    background: url('../photoes/other/bmw/3.jpg');
+    background-size: 1180px;
+    background-position: -38px -10px;
+}
+
+.strelka1 {
+    left: -350px;
+    top: 23.6px;
+    background-position: 166.5px -12.5px;
+    opacity: .2;
+}
+
+.strelka2 {
+    left: -420px;
+    top: -29.9px;
+    background-position: -12.5px -12.5px;
+    opacity: .2;
+}
+
+
+.strelka1:hover {
+    transform: scale(1.2);
+}
+
+.strelka2:hover {
+    transform: scale(1.2); 
+}
+
+/*Cлайдер со страницы КоМплектация*/
+
+.t-1-1 {
+    background-image: url("../photoes/lamboExterier/lamborghini-huracan-2015-38.jpg");
+    background-size: 130%;
+    background-position: -240px 0px;
+}
+
+.t-1-2 {
+    background-image: url("../photoes/lamboExterier/lamborghini-huracan-2015-44.jpg");
+    background-size: 130%;
+    background-position: -40px 0px;
+}
+
+.t-1-3 {
+    background-image: url("../photoes/lamboExterier/lamborghini-huracan-2015-24.jpg");
+    background-size: 130%;
+    background-position: -170px 0px;    
+}
+
+.t-1-4 {
+    background-image: url("../photoes/lamboExterier/2014-lamborghini-huracan-lp610-4-13.jpg");
+    background-size: 130%;
+    background-position: -170px 0px;    
+}
+
+/*Слайдер с indexHTML___________________________________________________________________*/
+
+.gallery-pic1-1 {
+    background: url('../photoes/main_gallery/4.jpg');
+    background-size: 1100px;
+    background-position: 0px -30px;
+}
+
+.gallery-pic1-2 {
+    background: url('../photoes/main_gallery/2.jpg');
+    background-size: 1100px;
+    background-position: 0px -30px;
+}
+
+.gallery-pic1-3 {
+    background: url('../photoes/main_gallery/1.jpg');
+    background-size: 1100px;
+    background-position: 0px -30px;
+}
+
+.gallery-pic1-4 {
+    background: url('../photoes/main_gallery/3.jpg');
+    background-size: 1100px;
+}
+
+.gallery-pic1-5 {
+    background: url('../photoes/main_gallery/5.jpg');
+    background-size: 1100px;
+    background-position: 0px -30px;
+}
+
+
+
+/*Preloader_____________________________________________________*/
+
+#header, #O-blackpalka, #O-section1, #O-blackpalka2, #Madeby {
+    opacity: 0;
+}
+
+.ContPreload {
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+
+/*Adaptiv Pad________________________________________________________________*/
+
+@media all and (max-width:  1470px) {
+    body {
+        width: 1000px;
+    }
+    
+    #O-blackpalka {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #O-section1 {
+        height: 730px;
+        width: 650px;
+        margin: 0 auto;
+    }
+    
+    #Maclaren {
+        margin-left: 0;
+    }
+    
+    #O-blackpalka2,#O-blackpalka{
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #Madeby {
+     width: 395px;
+    }    
+}
+
+/*Adaptiv Mobile____________________________________________________________________*/
+
+@media all and (max-width:  1050px) {
+    body {
+        width: 310px;
+    }
+    
+     #O-section1 {
+        height: 1430px;
+        width: 320px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    #text {
+        margin-bottom: 100px;
+    }
+    
+    
+    #Maclaren {
+        width: 310px;
+        height: 700px;
+        margin-left: 5px;
+        float: none;
+    }
+    
+     #Audi {
+        width: 310px;
+        height: 700px;
+        margin-left: 5px;
+        float: none; 
+    }
+    
+    #Madeby {
+        width: 100%;
+        height: 200px;
+    }
+    
+    
+    #Networks {
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        margin-left: 30px;
+        text-align: center;
+    }    
+ 
+}
+
+/*Adaptiv Gallery ALL pages_______________________________________*/
+
+@media all and (max-width: 1180px) {
+    .gallery {
+        width: 600px;
+        height: 400px;
+    }
+    
+    .strelka1 {
+        left: -160px;
+    }
+    
+    .strelka2 {
+        left: -220px;
+    }
+    
+    .Zakrit {
+        left: 320px;
+    }
+    
+    .G-MCL-1, .G-MCL-2, .G-MCL-3, .G-Audi-1, .G-Audi-2, .G-Audi-3, .G-FER-1, .G-FER-2, .G-FER-3, .G-BMW-1, .G-BMW-2, .G-BMW-3 {
+        background-size: 107%;
+    }
+    
+    .G-MCL-2 {
+        background-position: -10px 0;
+    }
+    
+    .G-MCL-3 {
+        background-position: 0px -35px;
+    }
+    
+    .G-Audi-1 {
+        background-size: 109%;
+       background-position: -23px 0;
+    }
+    
+    .G-Audi-2 {
+       background-size: 97%;
+       background-position: -2px -35px;
+    }
+    
+    .G-BMW-3 {
+        background-size: 110%;
+        background-position: -31px 3px;
+    }
+    
+    .G-BMW-2 {
+        background-size: 105%;
+        background-position: -12px 0;
+    }
+    
+    .t-1-1 {
+        background-size: 150%;
+    }
+    
+    .t-1-2 {
+        background-size: 150%;
+    }
+    
+     .t-1-3 {
+        background-size: 150%;
+    }
+    
+    .gallery-pic1-1 {
+    background-size: 110%;
+    background-position: 0px -30px;
+    }
+    
+    .gallery-pic1-2 {
+    background-size: 110%;
+    background-position: 0px -30px;
+    }
+    
+    .gallery-pic1-3 {
+    background-size: 110%;
+    background-position: 0px -30px;
+    }
+    
+    .gallery-pic1-4 {
+    background-size: 110%;
+    background-position: 0px -30px;
+    }
+    
+    .gallery-pic1-5 {
+    background-size: 110%;
+    }
+}
+
+@media all and (max-width: 629px) {
+    .gallery {
+        width: 300px;
+        height: 250px;
+    }
+    
+    .strelka1 {
+        left: -50px;
+    }
+    
+    .strelka2 {
+        left: -110px;
+    }
+    
+    .Zakrit {
+        left: 140px;
+    }
+    
+    .G-MCL-1, .G-MCL-2, .G-MCL-3, .G-Audi-1, .G-Audi-2, .G-Audi-3, .G-FER-1, .G-FER-2, .G-FER-3, .G-BMW-1, .G-BMW-2, .G-BMW-3 {
+        background-size: 150%;
+    }
+    
+    .G-MCL-1 {
+        background-position: -150px 0;
+    }
+    
+     .G-MCL-2 {
+        background-position: 0px -30px;
+    }
+    
+    .G-FER-1 {
+        background-position: -150px 0;
+    }
+    
+    .G-FER-3 {
+        background-size: 160%;
+        background-position: -40px -25px;
+    }
+    
+    .t-1-1 {
+        background-size: 170%;
+        background-position: 0 0px;
+    }
+    
+    .t-1-2 {
+        background-size: 170%;
+        background-position: 0 0px;
+        
+    }
+    
+     .t-1-3 {
+        background-size: 170%;
+        background-position: -10px 0px; 
+    }
+    
+     .t-1-4 {
+        background-size: 150%;
+        background-position: -10px 3px; 
+    }
+    
+      .gallery-pic1-1 {
+        background-size: 140%;
+
+    }
+    
+    .gallery-pic1-2 {
+        background-size: 140%;
+        background-position: -70px -20px;
+
+    }
+    
+    .gallery-pic1-3 {
+        background-size: 140%;
+        background-position: -90px -20px;
+
+    }
+    
+     .gallery-pic1-4 {
+        background-size: 140%;
+        background-position: -70px -20px;
+
+    }
+    
+    .gallery-pic1-5 {
+        background-size: 140%;
+        background-position: -70px -20px;
+
+    }
+}
+
+    
+
