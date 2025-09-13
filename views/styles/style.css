@@ -2215,3 +2215,20 @@ select:-webkit-autofill:focus {
     margin-right: 10px;
   }
 }
+
+/* Large Monitor PC */
+
+@media (min-width: 1600px) {
+
+  .infoblock h1 {
+    font-size: 46px;
+  }
+
+  .infoblock p {
+    font-size: 28px;
+  }
+
+  .infoblock .watch {
+    width: 230px;
+  }
+}
