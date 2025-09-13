@@ -1044,6 +1044,43 @@ div.buttonModifyOne {
   background-size: 1.1;
 }
 
+.comment:nth-child(4) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -285px;
+  background-size: 1.1;
+}
+
+.comment:nth-child(5) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -390px;
+  background-size: 1.1;
+}
+
+.comment:nth-child(6) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -337px;
+  background-size: 1.1;
+}
+
+.comment:nth-child(7) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -442px;
+  background-size: 1.1;
+}
+
+
+.comment:nth-child(8) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -494px;
+  background-size: 1.1;
+}
+
+.comment:nth-child(9) .photoAuthCom {
+  background-image: url('./Sprites.png');
+  background-position: top 149px left -546px;
+  background-size: 1.1;
+}
+
 .authorCommentWrapper {
   margin-top: 25px;
   margin-left: 39px;
@@ -2221,14 +2258,15 @@ select:-webkit-autofill:focus {
 @media (min-width: 1600px) {
 
   .infoblock h1 {
-    font-size: 46px;
+    font-size: 38px;
   }
 
   .infoblock p {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .infoblock .watch {
-    width: 230px;
+    width: 250px;
+    height: 32px;
   }
 }
