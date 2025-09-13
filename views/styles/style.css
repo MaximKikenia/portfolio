@@ -64,7 +64,6 @@ html {
 
 .toolIcon,
 .order,
-.wrapperToolsFlex p,
 .pultInside,
 .watch,
 .socIcon {
@@ -177,17 +176,16 @@ html {
 
 .pultInside {
   width: 90px;
-  margin: 5px auto -10px;
+  margin: 5px auto 14px;
   z-index: 2;
   transform: scale(.9);
-  background: #2B2B2A;
+  background: #2c2c4f;
   border-radius: 50px;
 }
 
 .image_block {
   display: flex;
   flex-flow: column nowrap;
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -202,7 +200,10 @@ html {
 
 }
 
+
 @media (min-width: 1250px) {
+
+
 
   .pultInside {
     margin: 20px;
@@ -217,14 +218,17 @@ html {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    top: 0;
   }
 
   .portfolioBox {
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 95%;
-    height: 90%;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
   }
 
   .pult {
@@ -1267,7 +1271,10 @@ footer .logo {
   display: flex;
   justify-content: space-between;
   margin-top: 37px;
+}
 
+.socials > a:first-child {
+  display: none;
 }
 
 
@@ -1522,18 +1529,14 @@ select:-webkit-autofill:focus {
 
 /* Desktop */
 @media (min-width: 1250px) {
+
   .wrapper {
-    width: 1280px;
-    border: solid transparent 1px;
+    width: 1230px;
     margin: 50px auto 50px;
     overflow: hidden;
     background: #2a1c31;
     border-radius: 20px;
     box-shadow: 15px 25px 17px -13px #111;
-  }
-
-  .portfolioBox {
-    margin-top: -192px;
   }
 
   .sectionOne .info h1 {
@@ -1878,7 +1881,7 @@ select:-webkit-autofill:focus {
 
   .plansWrapper p {
     font-size: 19px;
-    font-family: "Jost Medium";
+    font-family: "Jost-Medium";
     color: white;
   }
 
@@ -1984,7 +1987,7 @@ select:-webkit-autofill:focus {
   /* Comments */
 
   .comments {
-    width: 1206px;
+    width: 1150px;
     margin: 150px auto 0;
     border-top: 1px solid yellow;
     border-bottom: 1px solid yellow;
@@ -2051,7 +2054,7 @@ select:-webkit-autofill:focus {
   /* Contacts */
 
   .contacts {
-    width: 1190px;
+    width: 1140px;
     margin: 100px auto 0;
     display: flex;
     padding: 20px 20px;

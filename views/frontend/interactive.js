@@ -37,29 +37,42 @@ class portfolioOpen {
         this.show = this.display.bind(this);
         this.counterElems = 0;
         this.openCan = 1;
+        this.fullCount = Math.trunc(this.counterElems);
+    }
+
+    changeWrapperHeight(height) {
+        const currentheight = +this.portwrapperStyles.height.slice(0, -2);
+        const newHeight = currentheight + height;
+        this.portwrapper.style.height = newHeight + 'px';
+        this.openCan = ++this.openCan;
+    }
+
+    changeWrapperHeightDesctop() {
+        const currentheight = +this.portwrapperStyles.height.slice(0, -2);
+        this.portwrapper.style.height = currentheight + this.desktopHeight + 'px';
+        this.openCan = ++this.openCan;
     }
 
     display() {
         if (window.innerWidth < 1250) {
 
             this.counterElems = this.childElems / 2;
+            this.fullCount = Math.trunc(this.counterElems);
 
-            if (this.openCan < this.counterElems) {
-                const currentheight = +this.portwrapperStyles.height.slice(0, -2);
-
-                const newHeight = currentheight + this.startHeightMobile;
-                this.portwrapper.style.height = newHeight + 'px';
-                this.openCan = ++this.openCan;
+            if (this.openCan < this.fullCount) {
+                this.changeWrapperHeight(this.startHeightMobile);
+            } else if (this.openCan === this.fullCount && this.childElems % 2 !== 0) {
+                this.changeWrapperHeight(this.desktopHeight);
             }
 
         } else {
 
-            this.counterElems = Math.round(this.childElems / 3);
+            this.counterElems = Math.trunc(this.childElems / 3);
 
-            if (this.openCan < this.counterElems - 1) {
-                const currentheight = +this.portwrapperStyles.height.slice(0, -2);
-                this.portwrapper.style.height = currentheight + this.desktopHeight + 'px';
-                this.openCan = ++this.openCan;
+            if (this.openCan <= this.counterElems - 2 & this.childElems % 3 === 0) {
+                this.changeWrapperHeightDesctop();
+            } else if (this.openCan <= this.counterElems - 1 & this.childElems % 3 !== 0) {
+                this.changeWrapperHeightDesctop()
             }
         }
 
@@ -135,21 +148,21 @@ let status = true;
 //Fixed Menu
 
 class FixedMenu {
-    constructor(){
+    constructor() {
         this.status = true;
         this.menu = document.getElementsByClassName('headerwrapper')[0];
         this.fix = this.fixed.bind(this);
     }
 
-    fixed(){
-        if(window.innerWidth > 1249) {
-            if(this.status && window.scrollY > 200) {
+    fixed() {
+        if (window.innerWidth > 1249) {
+            if (this.status && window.scrollY > 200) {
                 console.log(window.scrollY);
                 this.status = false;
-                this.menu.classList.add('menu_fixed'); 
-            } else if(window.scrollY < 200) {
+                this.menu.classList.add('menu_fixed');
+            } else if (window.scrollY < 200) {
                 this.menu.classList.remove('menu_fixed');
-                this.status = true; 
+                this.status = true;
             }
         }
 
